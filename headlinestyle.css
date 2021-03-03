@@ -16,8 +16,7 @@ nav ul {
     flex-grow: 1;
 }
 
-.flexbox2 {
-    
+.flexbox2 { 
     display: inline-flex;
     border: solid black 3px;
  margin: 10px;
