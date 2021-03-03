@@ -1,3 +1,10 @@
+/* Das soll das Bild kleiner machne wenn der Bildschrim wie auf dem Handy kleiner wird
+@media(min-width:200px) {
+    .falcobeliebt{
+       display: flex;
+}
+*/
+
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -7,6 +14,7 @@ nav ul {
 }
 
 .flexcontainer {
+    /* Die Properties bedeuten, alles im FLex container wird als Flexbox definiert, Die Textblöcke sollen in Reihen dargestellt werden und bei Bildschrimverengung schmaler werdne und sich der Bildbreite anpassen*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -42,7 +50,7 @@ img {
 }
 
 #startmain {
-    background-color: lightgray;
+    
 }
 
 table {
@@ -52,15 +60,71 @@ table {
     border-bottom: solid;
     margin: 15px;
 }
-#BesteSongs {
-    margin: 50px;
-            background-color: lightgray;
-}
-body{
+
+body {
+    /*Das ist unser Google-Font den wir benutzen*/
     font-family: 'Source Sans Pro', sans-serif;
 }
 
 
 .falcoleben {
     text-align: center;
+}
+
+/*vielleicht kann mir hier einer helfen in der html datei beliebtesongs sollen die blöcke (flexbox) nebeneinander sein also column das tun sie aber nicht die sind immer row*/
+.flexcontainerbeliebt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.flexboxbeliebt1 {
+    border: solid black 1px;
+    padding: 10px;
+    order: 1;
+    margin-bottom:
+}
+
+.flexboxbeliebt2 {
+    font-size: 20px;
+    border: solid black 1px;
+    padding: 10px;
+    order: 3;
+    text-align: center
+}
+
+.flexboxbeliebt3 {
+    border: solid black 1px;
+    padding: 10px;
+    text-align: left;
+    order: 2;
+}
+.flexcontainerstart{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.flexboxstart1 {
+    border: solid black 1px;
+}
+.flexboxstart2 {
+    border: solid black 1px;
+    font-weight: 600;
+}
+.largeImage {
+    
+}
+.block1 {
+    color: darkred;
+}
+.block2 {
+    color: darkslateblue;
+}
+.block3 {
+    color:darkgoldenrod;
+    line-height: 2;
+}
+#start {
+    background-color:azure;
 }
