@@ -7,21 +7,24 @@ nav ul {
 }
 
 .flexcontainer {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .flexbox1 {
-    display: inline-flex;
-    border: solid black 3px;
+    border: solid black 1px;
     margin: 10px;
-    flex-grow: 1;
 }
 
 .flexbox2 {
-    display: inline-flex;
-    border: solid black 3px;
+    border: solid black 1px;
     margin: 10px;
-    flex-grow: 1;
+}
+
+.flexbox3 {
+    border: solid black 1px;
+    margin: 10px;
 }
 
 main {
@@ -55,4 +58,9 @@ table {
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.falcoleben {
+    text-align: center;
 }
