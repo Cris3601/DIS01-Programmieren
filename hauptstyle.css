@@ -1,0 +1,55 @@
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    background-color: #D8D8DA;
+    list-style: none;
+}
+
+.flexcontainer {
+    display: inline-flex;
+}
+
+.flexbox1 {
+    display: inline-flex;
+    border: solid black 3px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.flexbox2 {
+    display: inline-flex;
+    border: solid black 3px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+main {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+img {
+    float: right;
+}
+
+#navigation {
+    margin-bottom: 20px;
+}
+
+#startmain {
+    background-color: lightgray;
+}
+
+table {
+    box-sizing: border-box;
+    padding: 5px;
+    border-top: solid;
+    border-bottom: solid;
+    margin: 15px;
+}
+#BesteSongs {
+    margin: 50px;
+            background-color: lightgray;
+}
