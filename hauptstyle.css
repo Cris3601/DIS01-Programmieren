@@ -5,12 +5,28 @@
 }
 */
 
+#navigation a:hover{
+    color: red
+        }
+
+
 nav ul {
     display: flex;
     justify-content: space-between;
     border: solid black 2px;
     background-color: #D8D8DA;
     list-style: none;
+}
+
+/*Cristina*/
+.int {
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    background-color: #D8D8DA;
+    list-style: none;
+    
+    
 }
 
 .flexcontainer {
