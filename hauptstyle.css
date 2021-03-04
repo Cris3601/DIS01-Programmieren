@@ -59,16 +59,10 @@ main {
 
 img {
     float: right;
-}
-
-#navigation {
-    margin-bottom: 20px;
-}
-
-#startmain {
     
 }
 
+/*Tabellen Style für Biografie*/
 table {
     box-sizing: border-box;
     padding: 5px;
@@ -80,6 +74,7 @@ table {
 body {
     /*Das ist unser Google-Font den wir benutzen*/
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
 }
 
 
@@ -99,15 +94,19 @@ body {
     border: solid black 1px;
     padding: 10px;
     order: 1;
-    margin-bottom:
+    margin-bottom: 15px;
+    font-weight: 700;
+    
 }
 
 .flexboxbeliebt2 {
-    font-size: 20px;
+    font-size: 18px;
     border: solid black 1px;
     padding: 10px;
     order: 3;
-    text-align: center
+    text-align: center;
+    
+    
 }
 
 .flexboxbeliebt3 {
@@ -115,32 +114,36 @@ body {
     padding: 10px;
     text-align: left;
     order: 2;
+    margin-bottom: 15px;
 }
 .flexcontainerstart{
-    display: flex;
-    flex-direction: column;
+    
+     background:
+linear-gradient(0deg, #E0FFFF 50%, #F5FFFA 73%);
+  
+    column-count: 2;
     flex-wrap: wrap;
 }
 .flexboxstart1 {
-    border: solid black 1px;
+    border: solid black 5px;
+    margin-bottom: 100%;
 }
 .flexboxstart2 {
-    border: solid black 1px;
+    border: solid black 5px;
     font-weight: 600;
 }
-.largeImage {
-    
-}
+
 .block1 {
     color: darkred;
 }
 .block2 {
-    color: darkslateblue;
+    color: darkred;
+        line-height: 2;
 }
-.block3 {
-    color:darkgoldenrod;
-    line-height: 2;
-}
+
+/* Hintergrundfarbe für das Article Element auf der Startseite. background lässt den Hintergrund mit css designen, linear gradient heißt farben sollen verlaufen, 45deg steht für den Winkel der rotation, dann die beiden farben und die % sind dafür da zu bestimmen wie viel % des Bildschrimes eingenommen werden soll.*/
 #start {
-    background-color:azure;
+    background:
+linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+
 }
