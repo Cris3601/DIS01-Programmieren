@@ -101,16 +101,13 @@ body {
     margin-bottom: 15px;
 }
 .flexcontainerstart{
-    
-     background:
-linear-gradient(0deg, #E0FFFF 50%, #F5FFFA 73%);
-  
-    column-count: 2;
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .flexboxstart1 {
     border: solid black 5px;
-    margin-bottom: 100%;
 }
 .flexboxstart2 {
     border: solid black 5px;
