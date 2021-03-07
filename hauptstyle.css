@@ -155,7 +155,7 @@ linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 
 }
 
-.horizontal
+.interview
 {
     
         display: flex;
@@ -163,4 +163,13 @@ linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
         border: solid black 2px;
         background-color: #D8D8DA;
         list-style: none;
+}
+
+.diskografie
+{
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    background-color: #D8D8DA;
+    list-style: none;
 }
