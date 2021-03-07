@@ -196,3 +196,9 @@ justify-content: space-around;
 align-items:center;
 
 }
+
+.rightfigure
+{
+    float:right;
+    text-align: center;
+}
