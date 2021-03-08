@@ -201,3 +201,36 @@ margin: 10px;
     float:right;
     text-align: center;
 }
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #34495e;
+}
+
+.slidershow{
+    width: 700px;
+    heiht: 400px;
+    overflow: hidden;
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar{
+width: 50px;
+height: 10px;
+border: 2px solid #fff;
+}
