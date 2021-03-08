@@ -175,13 +175,13 @@ linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     background-color: #D8D8DA;
     list-style: none;
 }
-
+/* folgende Elemente für die Bildgalerie*/
 .bildgalerie
 {
     display: flex;
     justify-content: space-between;
     border: solid black 2px;
-    background-color: #D8D8DA;
+    background-color: hsl(240, 73%, 42%);
     list-style: none;
 }
 
@@ -205,12 +205,11 @@ margin: 10px;
 body{
     margin: 0;
     padding: 0;
-    background: #34495e;
-}
+    }
 
 .slidershow{
     width: 700px;
-    heiht: 400px;
+    height: 400px;
     overflow: hidden;
 }
 
@@ -232,5 +231,53 @@ body{
 .bar{
 width: 50px;
 height: 10px;
-border: 2px solid #fff;
+border: 2px solid hsl(240, 73%, 42%);
+margin: 6px;
+cursor: pointer;
+transition: 0.4s;
 }
+
+.bar:hover{
+    background: hsl(240, 73%, 42%);
+}
+
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slides{
+    width:20%;
+    transition: 0.6s;
+
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#r3:checked ~.s1{
+    margin-left: -40%;
+}
+
+#r4:checked ~.s1{
+    margin-left: -60%;
+}
+
+/*ende Bildgalerie*/
