@@ -195,3 +195,9 @@ flex-wrap: wrap;
 margin: 10px;
 
 }
+
+.rightfigure
+{
+    float:right;
+    text-align: center;
+}
