@@ -53,12 +53,7 @@ li {
 .flexboxbio1 {
     border: solid black 1px;
     margin: 10px;
-<<<<<<< HEAD
    
-=======
-    background: 
-    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
->>>>>>> 4a8e70a34d5a322f00e263b31fd7b46ad962374a
 }
 /*@media(min-width 200px) {*/
 .flexboxbio2 {
@@ -87,7 +82,7 @@ li {
 /*footer{
     background: 
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);*/
-}
+
 /*Tabellen Style für Biografie*/
 table {
     box-sizing: border-box;
@@ -194,7 +189,6 @@ body {
 
 }
 
-<<<<<<< HEAD
 .interview
 {
     
@@ -204,15 +198,6 @@ body {
         background-color: #D8D8DA;
         list-style: none;
        
-=======
-.interview {
-
-    display: flex;
-    justify-content: space-between;
-    border: solid black 2px;
-    background-color: #D8D8DA;
-    list-style: none;
->>>>>>> 4a8e70a34d5a322f00e263b31fd7b46ad962374a
 }
 
 .diskografie {
@@ -222,6 +207,15 @@ body {
     background-color: #D8D8DA;
     list-style: none;
 }
+
+.flexboxdiskografie2 {
+border: solid black 1px;
+display: flex;    
+flex-direction: row;
+flex-wrap: wrap;
+margin: 10px;
+background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
+    }
 
 /* folgende Elemente für die Bildgalerie*/
 .bildgalerie {
@@ -234,20 +228,12 @@ body {
 
 .flexboxinterview {
 
-<<<<<<< HEAD
 border: solid black 1px;
 display: flex;    
 flex-direction: row;
 flex-wrap: wrap;
 margin: 10px;
 background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
-=======
-    border: solid black 1px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: 10px;
->>>>>>> 4a8e70a34d5a322f00e263b31fd7b46ad962374a
 
 }
 
@@ -283,7 +269,6 @@ body {
     display: flex;
 }
 
-<<<<<<< HEAD
 .bar{
 width: 50px;
 height: 10px;
@@ -295,19 +280,6 @@ transition: 0.4s;
 
 .bar:hover{
     background:  linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-=======
-.bar {
-    width: 50px;
-    height: 10px;
-    border: 2px solid hsl(240, 73%, 42%);
-    margin: 6px;
-    cursor: pointer;
-    transition: 0.4s;
-}
-
-.bar:hover {
-    background: hsl(240, 73%, 42%);
->>>>>>> 4a8e70a34d5a322f00e263b31fd7b46ad962374a
 }
 
 
@@ -358,43 +330,7 @@ input[name="r"] {
     text-align: left;
     border: solid black 2px;
     margin: 10px;
-<<<<<<< HEAD
     background: 
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
-=======
-}
 
-@media(min-width:900px) {
-    .flex-container {
-        display: flex;
-    }
-}
-
-.box1 {
-    flex: 1;
-    border: solid black 1px;
-    background-color: aliceblue;
-    padding: 10px;
-    margin: 10px;
-}
-.img2 {
-    float: right;
-    width: 250px;
-    margin: 10px;
-    margin-top: 50px
-}
-.box2 {
-    flex: 1;
-    border: solid black 1px;
-    background-color: aliceblue;
-    padding: 10px;
-    margin: 10px;
-
-}
-
-.central
-{
-    text-align: center;
-}
->>>>>>> 4a8e70a34d5a322f00e263b31fd7b46ad962374a
