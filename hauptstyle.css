@@ -132,6 +132,8 @@ body {
     text-align: center;
     background: 
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   width: 300px;
+   height: 260px;
 
 
 }
@@ -217,8 +219,6 @@ margin: 10px;
 background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
     }
 
-
-
 .flexboxdiskografie {
     display: flex;
     justify-content: space-between;
@@ -230,3 +230,139 @@ background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
+.bildgal1{
+   text-align: left;
+   border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.bildgal2{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.bildgal3{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.bildgal4{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.bildgal5{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   width: auto; height: auto
+}
+
+.bildgal6{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.bildgal7{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.bildgal8{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.bildgal9{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   width: 100%; height: auto;
+}
+
+.bildgal10{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.bildgal11{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.bildgal12{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.bildgal1{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.bildgal1{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.bildgal1{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
