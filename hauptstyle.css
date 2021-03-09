@@ -41,7 +41,7 @@ li {
     width: 300px;
     height: 200px;
 }
-@media (min-width:300px){
+@media (min-width:1000px){
 .flexcontainerbio {
     /* Die Properties bedeuten, alles im FLex container wird als Flexbox definiert, Die Textblöcke sollen in Reihen dargestellt werden und bei Bildschrimverengung schmaler werdne und sich der Bildbreite anpassen*/
     display: flex;
@@ -56,7 +56,7 @@ li {
     background: 
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
-@media(min-width 200px) {
+/*@media(min-width 200px) {*/
 .flexboxbio2 {
     border: solid black 1px;
     margin: 10px;
@@ -333,7 +333,12 @@ input[name="r"] {
     padding: 10px;
     margin: 10px;
 }
-
+.img2 {
+    float: right;
+    width: 250px;
+    margin: 10px;
+    margin-top: 50px
+}
 .box2 {
     flex: 1;
     border: solid black 1px;
