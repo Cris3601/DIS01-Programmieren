@@ -229,7 +229,7 @@ background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
     background: 
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
-
+/* Bildaglerie anfang*/
 .bildgal1{
    text-align: left;
    border: solid black 2px;
@@ -237,6 +237,7 @@ background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
    margin: 10px;
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
 }
 
 .bildgal2{
@@ -246,6 +247,7 @@ background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
    margin: 10px;
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
 }
 
 .bildgal3{
@@ -255,6 +257,7 @@ background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
    margin: 10px;
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
 }
 
 .bildgal4{
@@ -264,6 +267,7 @@ background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
    margin: 10px;
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
 }
 
 .bildgal5{
@@ -273,7 +277,7 @@ background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
    margin: 10px;
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   width: auto; height: auto
+   padding: 10px;
 }
 
 .bildgal6{
@@ -283,6 +287,7 @@ background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
    margin: 10px;
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
 }
 
 .bildgal7{
@@ -292,6 +297,10 @@ background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
    margin: 10px;
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
+}
+
+
 }
 
 .bildgal8{
@@ -301,6 +310,9 @@ background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
    margin: 10px;
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
+}
+
 }
 
 .bildgal9{
@@ -310,8 +322,9 @@ background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
    margin: 10px;
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   width: 100%; height: auto;
+   padding: 10px;
 }
+
 
 .bildgal10{
     text-align: left;
@@ -320,6 +333,7 @@ background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
    margin: 10px;
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
 }
 
 .bildgal11{
@@ -329,6 +343,7 @@ background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
    margin: 10px;
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
 }
 
 .bildgal12{
@@ -338,31 +353,8 @@ background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
    margin: 10px;
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
 }
 
-.bildgal1{
-    text-align: left;
-    border: solid black 2px;
-   width: 700px;
-   margin: 10px;
-   background: 
-   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}
 
-.bildgal1{
-    text-align: left;
-    border: solid black 2px;
-   width: 700px;
-   margin: 10px;
-   background: 
-   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}
-
-.bildgal1{
-    text-align: left;
-    border: solid black 2px;
-   width: 700px;
-   margin: 10px;
-   background: 
-   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}
+/* Bildaglerie ende*/
