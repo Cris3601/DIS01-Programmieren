@@ -136,8 +136,9 @@ body {
 
 .flexboxstart2 {
     border: solid black 1px;
-    
+
 }
+
 .block3 {
     font-weight: 600;
 }
@@ -145,45 +146,45 @@ body {
 
 .block2 {
     /*Hintergrundfarbe und Zeilenabstand*/
-    color: darkred;  
+    color: darkred;
 }
+
 .block4 {
     font-weight: 600;
 }
+
 /* Hintergrundfarbe für das Article Element auf der Startseite. background lässt den Hintergrund mit css designen, linear gradient heißt farben sollen verlaufen, 45deg steht für den Winkel der rotation, dann die beiden farben und die % sind dafür da zu bestimmen wie viel % des Bildschrimes eingenommen werden soll.*/
 #start1 {
     background:
-linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 
 }
 
-#start2{
+#start2 {
     background:
-    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-    
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+
 }
 
-.interview
-{
-    
-        display: flex;
-        justify-content: space-between;
-        border: solid black 2px;
-        background-color: #D8D8DA;
-        list-style: none;
-}
+.interview {
 
-.diskografie
-{
     display: flex;
     justify-content: space-between;
     border: solid black 2px;
     background-color: #D8D8DA;
     list-style: none;
 }
+
+.diskografie {
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    background-color: #D8D8DA;
+    list-style: none;
+}
+
 /* folgende Elemente für die Bildgalerie*/
-.bildgalerie
-{
+.bildgalerie {
     display: flex;
     justify-content: space-between;
     border: solid black 2px;
@@ -191,42 +192,40 @@ linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     list-style: none;
 }
 
-.flexboxinterview
-{
+.flexboxinterview {
 
-border: solid black 1px;
-display: flex;    
-flex-direction: row;
-flex-wrap: wrap;
-margin: 10px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
 
 }
 
-.rightfigure
-{
-    float:right;
+.rightfigure {
+    float: right;
     text-align: center;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
-    }
+}
 
-.slidershow{
+.slidershow {
     width: 700px;
     height: 400px;
     overflow: hidden;
 }
 
-.middle{
+.middle {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.navigation{
+.navigation {
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -234,65 +233,93 @@ body{
     display: flex;
 }
 
-.bar{
-width: 50px;
-height: 10px;
-border: 2px solid hsl(240, 73%, 42%);
-margin: 6px;
-cursor: pointer;
-transition: 0.4s;
+.bar {
+    width: 50px;
+    height: 10px;
+    border: 2px solid hsl(240, 73%, 42%);
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
 }
 
-.bar:hover{
+.bar:hover {
     background: hsl(240, 73%, 42%);
 }
 
 
-input[name="r"]{
+input[name="r"] {
     position: absolute;
     visibility: hidden;
 }
 
-.slides{
+.slides {
     width: 500%;
     height: 100%;
     display: flex;
 }
 
-.slides{
-    width:20%;
+.slides {
+    width: 20%;
     transition: 0.6s;
 
 }
 
-.slide img{
+.slide img {
     width: 100%;
     height: 100%;
 }
 
-#r1:checked ~ .s1{
+#r1:checked ~ .s1 {
     margin-left: 0;
 }
 
-#r2:checked ~ .s1{
+#r2:checked ~ .s1 {
     margin-left: -20%;
 }
 
-#r3:checked ~.s1{
+#r3:checked ~ .s1 {
     margin-left: -40%;
 }
 
-#r4:checked ~.s1{
+#r4:checked ~ .s1 {
     margin-left: -60%;
 }
 
 /*ende Bildgalerie*/
 
-.flexboxdiskografie{
+.flexboxdiskografie {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    text-align:left;
+    text-align: left;
     border: solid black 2px;
     margin: 10px;
+}
+
+@media(min-width:900px) {
+    .flex-container {
+        display: flex;
+    }
+}
+
+.box1 {
+    flex: 1;
+    border: solid black 1px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box2 {
+    flex: 1;
+    border: solid black 1px;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.central
+{
+    text-align: center;
 }
