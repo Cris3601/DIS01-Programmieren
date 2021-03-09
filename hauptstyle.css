@@ -1,14 +1,7 @@
-/* Das soll das Bild kleiner machne wenn der Bildschrim wie auf dem Handy kleiner wird funktioniert aber nicht so richtig
-@media(min-width:200px) {
-    .falcobeliebt{
-       display: flex;
-}
-*/
 
 #navigation a:hover {
     color: red
 }
-
 
 nav ul {
     display: flex;
@@ -32,41 +25,65 @@ li {
     border: solid black 2px;
     background-color: #D8D8DA;
     list-style: none;
-
-
 }
-
-.flexcontainer {
+.bildstart {
+    width: 300px;
+    height: 110px;
+    float: right;
+}
+.bildbio {
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+.bildsong {
+    float: right;
+    width: 300px;
+    height: 200px;
+}
+@media (min-width:300px){
+.flexcontainerbio {
     /* Die Properties bedeuten, alles im FLex container wird als Flexbox definiert, Die Textblöcke sollen in Reihen dargestellt werden und bei Bildschrimverengung schmaler werdne und sich der Bildbreite anpassen*/
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+    /*flex-direction: column;
+    flex-wrap:nowrap;*/
+    }}
 
 /*flexboxen welche die teilung in row ermöglichen, diese sind alle im flexcontainer*/
-.flexbox1 {
+.flexboxbio1 {
     border: solid black 1px;
     margin: 10px;
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+@media(min-width 200px) {
+.flexboxbio2 {
+    border: solid black 1px;
+    margin: 10px;
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+    
+    
 }
 
-.flexbox2 {
+.flexboxbio3 {
     border: solid black 1px;
     margin: 10px;
-}
-
-.flexbox3 {
-    border: solid black 1px;
-    margin: 10px;
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
 /*stylen der bilder größe, damit diese auch auf Mobile zu sehen sind*/
-img {
+/*img {
     float: right;
     width: 250px;
     margin: 10px;
     margin-top: 50px;
+}*/
+/*footer{
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);*/
 }
-
 /*Tabellen Style für Biografie*/
 table {
     box-sizing: border-box;
@@ -75,13 +92,15 @@ table {
     border-bottom: solid;
     margin: 15px;
 }
+.uberschrift {
+    border-right: solid black 2px;
+}
 
 body {
     /*Das ist unser Google-Font den wir benutzen*/
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
 }
-
 
 .falcoleben {
     text-align: center;
@@ -101,6 +120,8 @@ body {
     order: 1;
     margin-bottom: 15px;
     font-weight: 700;
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 
 }
 
@@ -110,6 +131,8 @@ body {
     padding: 10px;
     order: 3;
     text-align: center;
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 
 
 }
@@ -120,14 +143,15 @@ body {
     text-align: left;
     order: 2;
     margin-bottom: 15px;
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
-
+@media (min-width:700px){
 .flexcontainerstart {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-}
+}}
 
 .flexboxstart1 {
     border: solid black 1px;
