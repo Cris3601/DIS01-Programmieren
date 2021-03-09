@@ -151,10 +151,16 @@ body {
     font-weight: 600;
 }
 /* Hintergrundfarbe für das Article Element auf der Startseite. background lässt den Hintergrund mit css designen, linear gradient heißt farben sollen verlaufen, 45deg steht für den Winkel der rotation, dann die beiden farben und die % sind dafür da zu bestimmen wie viel % des Bildschrimes eingenommen werden soll.*/
-#start {
+#start1 {
     background:
 linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 
+}
+
+#start2{
+    background:
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+    
 }
 
 .interview
@@ -285,8 +291,8 @@ input[name="r"]{
 .flexboxdiskografie{
     display: flex;
     justify-content: space-between;
-    border: solid black 2px;
-    background-color: #D8D8DA;
     list-style: none;
     text-align:left;
+    border: solid black 2px;
+    margin: 10px;
 }
