@@ -281,3 +281,12 @@ input[name="r"]{
 }
 
 /*ende Bildgalerie*/
+
+.flexboxdiskografie{
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    background-color: #D8D8DA;
+    list-style: none;
+    text-align:left;
+}
