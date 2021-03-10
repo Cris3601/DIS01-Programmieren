@@ -1,11 +1,11 @@
 
 
-.interview {
+.flexboxinterview {
 
     display: flex;
     justify-content: space-between;
     border: solid black 2px;
-    background-color: #D8D8DA;
+    background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     list-style: none;
 }
 
@@ -38,6 +38,17 @@
 }
 
 .flexboxdiskografie {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: left;
+    border: solid black 2px;
+    margin: 10px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.flexboxinterview2{
     display: flex;
     justify-content: space-between;
     list-style: none;
