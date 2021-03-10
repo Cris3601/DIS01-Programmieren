@@ -40,7 +40,9 @@ table {
 }
 
 
-
+.uberschrift {
+    border-right: solid black 2px;
+}
 
 body {
     /*Das ist unser Google-Font den wir benutzen*/

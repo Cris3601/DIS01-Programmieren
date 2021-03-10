@@ -49,10 +49,6 @@
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
-.uberschrift {
-    border-right: solid black 2px;
-}
-
 .falcoleben {
     text-align: center;
 }
@@ -96,7 +92,7 @@
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
-@media (min-width:700px) {
+@media (min-width:1000px) {
     .flexcontainerstart {
         display: flex;
         flex-wrap: wrap;
