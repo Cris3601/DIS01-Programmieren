@@ -43,12 +43,20 @@ li {
     width: 300px;
     height: 200px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5a19d0ad6a95613570b58eca85055b3aed0f2ff
 
 @media (min-width:1000px) {
     .flexcontainerbio {
         /* Die Properties bedeuten, alles im FLex container wird als Flexbox definiert, Die Textblöcke sollen in Reihen dargestellt werden und bei Bildschrimverengung schmaler werdne und sich der Bildbreite anpassen*/
         display: flex;
         /*flex-direction: column;
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5a19d0ad6a95613570b58eca85055b3aed0f2ff
 
 @media (min-width:300px){
 .flexcontainerbio {
@@ -56,6 +64,10 @@ li {
     display: flex;
     /*flex-direction: column;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5a19d0ad6a95613570b58eca85055b3aed0f2ff
     flex-wrap:nowrap;*/
     }
 }
@@ -64,9 +76,17 @@ li {
 .flexboxbio1 {
     border: solid black 1px;
     margin: 10px;
+<<<<<<< HEAD
     background: 
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 
+=======
+
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+
+
+>>>>>>> b5a19d0ad6a95613570b58eca85055b3aed0f2ff
 }
 
 /*@media(min-width 200px) {*/
@@ -143,9 +163,15 @@ body {
     padding: 10px;
     order: 3;
     text-align: center;
+<<<<<<< HEAD
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+=======
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+>>>>>>> b5a19d0ad6a95613570b58eca85055b3aed0f2ff
 }
+   
 
 .flexboxbeliebt3 {
     border: solid black 1px;
@@ -206,6 +232,10 @@ linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     border: solid black 2px;
     background-color: #D8D8DA;
     list-style: none;
+<<<<<<< HEAD
+=======
+
+>>>>>>> b5a19d0ad6a95613570b58eca85055b3aed0f2ff
 }
 
 .diskografie
@@ -226,7 +256,13 @@ linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     list-style: none;
 }
 
+<<<<<<< HEAD
 .flexboxdiskografie2 {
+=======
+
+.flexboxinterview
+{
+>>>>>>> b5a19d0ad6a95613570b58eca85055b3aed0f2ff
     border: solid black 1px;
     display: flex;
     flex-direction: row;
@@ -316,7 +352,10 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 margin: 10px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> b5a19d0ad6a95613570b58eca85055b3aed0f2ff
 }
 
 .rightfigure
@@ -407,6 +446,11 @@ input[name="r"]{
 
 /* Bildaglerie ende*/
 
+<<<<<<< HEAD
+=======
+/* Bildaglerie ende*/
+
+>>>>>>> b5a19d0ad6a95613570b58eca85055b3aed0f2ff
 .flexboxdiskografie{
     display: flex;
     justify-content: space-between;
