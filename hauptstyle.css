@@ -43,17 +43,12 @@ li {
     width: 300px;
     height: 200px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> bd449d1dd23da78a22cafd2df8b1e07ffb73be44
 
 @media (min-width:1000px) {
     .flexcontainerbio {
         /* Die Properties bedeuten, alles im FLex container wird als Flexbox definiert, Die Textblöcke sollen in Reihen dargestellt werden und bei Bildschrimverengung schmaler werdne und sich der Bildbreite anpassen*/
         display: flex;
         /*flex-direction: column;
-<<<<<<< HEAD
 
 @media (min-width:300px){
 .flexcontainerbio {
@@ -61,8 +56,6 @@ li {
     display: flex;
     /*flex-direction: column;
 
-=======
->>>>>>> bd449d1dd23da78a22cafd2df8b1e07ffb73be44
     flex-wrap:nowrap;*/
     }
 }
@@ -71,12 +64,9 @@ li {
 .flexboxbio1 {
     border: solid black 1px;
     margin: 10px;
-<<<<<<< HEAD
     background: 
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 
-=======
->>>>>>> bd449d1dd23da78a22cafd2df8b1e07ffb73be44
 }
 
 /*@media(min-width 200px) {*/
@@ -104,7 +94,7 @@ li {
 /*footer{
     background: 
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);*/
-}
+
 /*Tabellen Style für Biografie*/
 table {
     box-sizing: border-box;
@@ -153,23 +143,8 @@ body {
     padding: 10px;
     order: 3;
     text-align: center;
-<<<<<<< HEAD
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-=======
-
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-
-    background: 
-    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-
-   width: 300px;
-   height: 260px;
-
-
-
->>>>>>> bd449d1dd23da78a22cafd2df8b1e07ffb73be44
 }
 
 .flexboxbeliebt3 {
@@ -224,10 +199,6 @@ linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> bd449d1dd23da78a22cafd2df8b1e07ffb73be44
 .interview {
 
     display: flex;
@@ -235,10 +206,6 @@ linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     border: solid black 2px;
     background-color: #D8D8DA;
     list-style: none;
-<<<<<<< HEAD
-=======
-
->>>>>>> bd449d1dd23da78a22cafd2df8b1e07ffb73be44
 }
 
 .diskografie
@@ -259,12 +226,6 @@ linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     list-style: none;
 }
 
-<<<<<<< HEAD
-=======
-.flexboxinterview
-{
-
->>>>>>> bd449d1dd23da78a22cafd2df8b1e07ffb73be44
 .flexboxdiskografie2 {
     border: solid black 1px;
     display: flex;
@@ -350,15 +311,12 @@ h2 {
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
    padding: 10px;
-<<<<<<< HEAD
 border: solid black 1px;
 display: flex;    
 flex-direction: row;
 flex-wrap: wrap;
 margin: 10px;
 
-=======
->>>>>>> bd449d1dd23da78a22cafd2df8b1e07ffb73be44
 }
 
 .rightfigure
@@ -447,15 +405,8 @@ input[name="r"]{
 
 /*ende Bildgalerie*/
 
-<<<<<<< HEAD
 /* Bildaglerie ende*/
 
-=======
-
-/* Bildaglerie ende*/
-
-
->>>>>>> bd449d1dd23da78a22cafd2df8b1e07ffb73be44
 .flexboxdiskografie{
     display: flex;
     justify-content: space-between;
