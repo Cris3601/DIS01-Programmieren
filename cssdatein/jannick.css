@@ -1,0 +1,66 @@
+
+
+
+/*Jannick Code*/
+/*body{
+    font-family: "arial", monospace; 
+    font-size: 18px;
+    line-height: normal;
+}*/
+
+/*
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+
+}*/
+
+.rightfigure {
+    float: right;
+}
+
+.img1 {
+    width: 250px;
+}
+
+@media (min-width:1000px) {
+    .flex-container {
+        display: flex;
+    }
+}
+
+.box1 {
+    flex: 1;
+    background-color: aliceblue;
+    border: solid black 1px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box2 {
+    flex: 1;
+    background-color: aliceblue;
+    border: solid black 1px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.central {
+    text-align: center;
+}
+
+.hcentral {
+    font-size: 30px;
+    font-weight: 700;
+    color: grey;
+    text-align: center;
+}
+
+
+.rightfigure
+{
+    float:right;
+    text-align: center;
+}
+
+

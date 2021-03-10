@@ -1,0 +1,74 @@
+
+
+.interview {
+
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    background-color: #D8D8DA;
+    list-style: none;
+}
+
+.diskografie
+{
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    background-color: #D8D8DA;
+    list-style: none;
+}
+/* folgende Elemente für die Bildgalerie*/
+.bildgalerie
+{
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    background-color: hsl(240, 73%, 42%);
+    list-style: none;
+}
+
+.flexboxdiskografie2 {
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+    ;
+}
+
+.flexboxdiskografie {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: left;
+    border: solid black 2px;
+    margin: 10px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flexboxdiskografie{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align:left;
+    border: solid black 2px;
+    margin: 10px;
+}
+

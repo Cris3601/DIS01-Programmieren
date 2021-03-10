@@ -1,0 +1,172 @@
+#navigation a:hover {
+    color: red
+}
+
+
+
+
+
+
+.bildstart {
+    width: 300px;
+    height: 110px;
+    float: right;
+}
+
+.bildbio {
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+
+.bildsong {
+    float: right;
+    width: 300px;
+    height: 200px;
+}
+
+@media (min-width:1000px) {
+    .flexcontainerbio {
+        /* Die Properties bedeuten, alles im FLex container wird als Flexbox definiert, Die Textblöcke sollen in Reihen dargestellt werden und bei Bildschrimverengung schmaler werdne und sich der Bildbreite anpassen*/
+        display: flex;
+        /*flex-direction: column;
+
+@media (min-width:300px){
+.flexcontainerbio {
+    /* Die Properties bedeuten, alles im FLex container wird als Flexbox definiert, Die Textblöcke sollen in Reihen dargestellt werden und bei Bildschrimverengung schmaler werdne und sich der Bildbreite anpassen*/
+    display: flex;
+    /*flex-direction: column;
+
+    flex-wrap:nowrap;*/
+    }
+}
+
+/*flexboxen welche die teilung in row ermöglichen, diese sind alle im flexcontainer*/
+.flexboxbio1 {
+    border: solid black 1px;
+    margin: 10px;
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+
+}
+
+/*@media(min-width 200px) {*/
+.flexboxbio2 {
+    border: solid black 1px;
+    margin: 10px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.flexboxbio3 {
+    border: solid black 1px;
+    margin: 10px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+/*stylen der bilder größe, damit diese auch auf Mobile zu sehen sind*/
+/*img {
+    float: right;
+    width: 250px;
+    margin: 10px;
+    margin-top: 50px;
+}*/
+/*footer{
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);*/
+
+
+
+
+.uberschrift {
+    border-right: solid black 2px;
+}
+
+
+
+.falcoleben {
+    text-align: center;
+}
+
+/*vielleicht kann mir hier einer helfen in der html datei beliebtesongs sollen die blöcke (flexbox) nebeneinander sein also column das tun sie aber nicht die sind immer row*/
+.flexcontainerbeliebt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.flexboxbeliebt1 {
+    border: solid black 1px;
+    padding: 10px;
+    order: 1;
+    margin-bottom: 15px;
+    font-weight: 700;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+
+}
+
+.flexboxbeliebt2 {
+    font-size: 18px;
+    border: solid black 1px;
+    padding: 10px;
+    order: 3;
+    text-align: center;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+   
+
+.flexboxbeliebt3 {
+    border: solid black 1px;
+    padding: 10px;
+    text-align: left;
+    order: 2;
+    margin-bottom: 15px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+@media (min-width:700px) {
+    .flexcontainerstart {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+.flexboxstart1 {
+    border: solid black 1px;
+    margin-bottom: 30px;
+}
+
+.flexboxstart2 {
+    border: solid black 1px;
+    
+}
+.block3 {
+    font-weight: 600;
+}
+
+
+.block2 {
+    /*Hintergrundfarbe und Zeilenabstand*/
+    color: darkred;  
+}
+.block4 {
+    font-weight: 600;
+}
+/* Hintergrundfarbe für das Article Element auf der Startseite. background lässt den Hintergrund mit css designen, linear gradient heißt farben sollen verlaufen, 45deg steht für den Winkel der rotation, dann die beiden farben und die % sind dafür da zu bestimmen wie viel % des Bildschrimes eingenommen werden soll.*/
+#start1 {
+    background:
+linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+
+}
+
+#start2{
+    background:
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+    
+}

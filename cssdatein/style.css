@@ -1,0 +1,55 @@
+#navigation a:hover {
+    color: red
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    background-color: #D8D8DA;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+li {
+    /* linie rechts vom text als worttrenner macht das ganze übersichtlicher*/
+    padding-right: 2px;
+    border-right: solid black 2px;
+    line-height: 2
+}
+
+
+/*stylen der bilder größe, damit diese auch auf Mobile zu sehen sind*/
+/*img {
+    float: right;
+    width: 250px;
+    margin: 10px;
+    margin-top: 50px;
+}*/
+/*footer{
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);*/
+
+/*Tabellen Style für Biografie*/
+table {
+    box-sizing: border-box;
+    padding: 5px;
+    border-top: solid;
+    border-bottom: solid;
+    margin: 15px;
+}
+
+
+
+
+body {
+    /*Das ist unser Google-Font den wir benutzen*/
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+
+    
+
+}
+
