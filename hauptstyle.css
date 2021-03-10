@@ -43,20 +43,12 @@ li {
     width: 300px;
     height: 200px;
 }
-<<<<<<< HEAD
 
 @media (min-width:1000px) {
     .flexcontainerbio {
         /* Die Properties bedeuten, alles im FLex container wird als Flexbox definiert, Die Textblöcke sollen in Reihen dargestellt werden und bei Bildschrimverengung schmaler werdne und sich der Bildbreite anpassen*/
         display: flex;
         /*flex-direction: column;
-=======
-@media (min-width:300px){
-.flexcontainerbio {
-    /* Die Properties bedeuten, alles im FLex container wird als Flexbox definiert, Die Textblöcke sollen in Reihen dargestellt werden und bei Bildschrimverengung schmaler werdne und sich der Bildbreite anpassen*/
-    display: flex;
-    /*flex-direction: column;
->>>>>>> 2831c9586fbc4d644b02a70056e39c9b4ea45cec
     flex-wrap:nowrap;*/
     }
 }
@@ -65,12 +57,6 @@ li {
 .flexboxbio1 {
     border: solid black 1px;
     margin: 10px;
-<<<<<<< HEAD
-
-=======
-    background: 
-    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
->>>>>>> 2831c9586fbc4d644b02a70056e39c9b4ea45cec
 }
 
 /*@media(min-width 200px) {*/
@@ -149,18 +135,16 @@ body {
     padding: 10px;
     order: 3;
     text-align: center;
-<<<<<<< HEAD
+
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-=======
+
     background: 
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-<<<<<<< HEAD
+
    width: 300px;
    height: 260px;
->>>>>>> 6d66e33821b5a9104be7ecce17e336c0611f3377
-=======
->>>>>>> 2831c9586fbc4d644b02a70056e39c9b4ea45cec
+
 
 
 }
@@ -217,7 +201,6 @@ linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     
 }
 
-<<<<<<< HEAD
 .interview {
 
     display: flex;
@@ -226,16 +209,6 @@ linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     background-color: #D8D8DA;
     list-style: none;
 
-=======
-.interview
-{
-    
-        display: flex;
-        justify-content: space-between;
-        border: solid black 2px;
-        background-color: #D8D8DA;
-        list-style: none;
->>>>>>> 2831c9586fbc4d644b02a70056e39c9b4ea45cec
 }
 
 .diskografie
@@ -259,7 +232,6 @@ linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 .flexboxinterview
 {
 
-<<<<<<< HEAD
 .flexboxdiskografie2 {
     border: solid black 1px;
     display: flex;
@@ -281,7 +253,7 @@ linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
---------------------------------------------------
+
 /*Jannick Code*/
 /*body{
     font-family: "arial", monospace; 
@@ -345,14 +317,6 @@ h2 {
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
    padding: 10px;
-=======
-border: solid black 1px;
-display: flex;    
-flex-direction: row;
-flex-wrap: wrap;
-margin: 10px;
-
->>>>>>> 2831c9586fbc4d644b02a70056e39c9b4ea45cec
 }
 
 .rightfigure
@@ -441,13 +405,10 @@ input[name="r"]{
 
 /*ende Bildgalerie*/
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-----------------------------------------------
-=======
+
 /* Bildaglerie ende*/
->>>>>>> 6d66e33821b5a9104be7ecce17e336c0611f3377
-=======
+
+
 .flexboxdiskografie{
     display: flex;
     justify-content: space-between;
@@ -456,4 +417,4 @@ input[name="r"]{
     border: solid black 2px;
     margin: 10px;
 }
->>>>>>> 2831c9586fbc4d644b02a70056e39c9b4ea45cec
+
