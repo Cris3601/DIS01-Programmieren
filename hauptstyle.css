@@ -43,12 +43,20 @@ li {
     width: 300px;
     height: 200px;
 }
+<<<<<<< HEAD
 
 @media (min-width:1000px) {
     .flexcontainerbio {
         /* Die Properties bedeuten, alles im FLex container wird als Flexbox definiert, Die Textblöcke sollen in Reihen dargestellt werden und bei Bildschrimverengung schmaler werdne und sich der Bildbreite anpassen*/
         display: flex;
         /*flex-direction: column;
+=======
+@media (min-width:300px){
+.flexcontainerbio {
+    /* Die Properties bedeuten, alles im FLex container wird als Flexbox definiert, Die Textblöcke sollen in Reihen dargestellt werden und bei Bildschrimverengung schmaler werdne und sich der Bildbreite anpassen*/
+    display: flex;
+    /*flex-direction: column;
+>>>>>>> 2831c9586fbc4d644b02a70056e39c9b4ea45cec
     flex-wrap:nowrap;*/
     }
 }
@@ -57,7 +65,12 @@ li {
 .flexboxbio1 {
     border: solid black 1px;
     margin: 10px;
+<<<<<<< HEAD
 
+=======
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+>>>>>>> 2831c9586fbc4d644b02a70056e39c9b4ea45cec
 }
 
 /*@media(min-width 200px) {*/
@@ -87,7 +100,7 @@ li {
 /*footer{
     background: 
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);*/
-
+}
 /*Tabellen Style für Biografie*/
 table {
     box-sizing: border-box;
@@ -142,9 +155,12 @@ body {
 =======
     background: 
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+<<<<<<< HEAD
    width: 300px;
    height: 260px;
 >>>>>>> 6d66e33821b5a9104be7ecce17e336c0611f3377
+=======
+>>>>>>> 2831c9586fbc4d644b02a70056e39c9b4ea45cec
 
 
 }
@@ -174,9 +190,8 @@ body {
 
 .flexboxstart2 {
     border: solid black 1px;
-
+    
 }
-
 .block3 {
     font-weight: 600;
 }
@@ -184,26 +199,25 @@ body {
 
 .block2 {
     /*Hintergrundfarbe und Zeilenabstand*/
-    color: darkred;
+    color: darkred;  
 }
-
 .block4 {
     font-weight: 600;
 }
-
 /* Hintergrundfarbe für das Article Element auf der Startseite. background lässt den Hintergrund mit css designen, linear gradient heißt farben sollen verlaufen, 45deg steht für den Winkel der rotation, dann die beiden farben und die % sind dafür da zu bestimmen wie viel % des Bildschrimes eingenommen werden soll.*/
 #start1 {
     background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 
 }
 
-#start2 {
+#start2{
     background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+    
 }
 
+<<<<<<< HEAD
 .interview {
 
     display: flex;
@@ -212,16 +226,40 @@ body {
     background-color: #D8D8DA;
     list-style: none;
 
+=======
+.interview
+{
+    
+        display: flex;
+        justify-content: space-between;
+        border: solid black 2px;
+        background-color: #D8D8DA;
+        list-style: none;
+>>>>>>> 2831c9586fbc4d644b02a70056e39c9b4ea45cec
 }
 
-.diskografie {
+.diskografie
+{
     display: flex;
     justify-content: space-between;
     border: solid black 2px;
     background-color: #D8D8DA;
     list-style: none;
 }
+/* folgende Elemente für die Bildgalerie*/
+.bildgalerie
+{
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    background-color: hsl(240, 73%, 42%);
+    list-style: none;
+}
 
+.flexboxinterview
+{
+
+<<<<<<< HEAD
 .flexboxdiskografie2 {
     border: solid black 1px;
     display: flex;
@@ -307,127 +345,115 @@ h2 {
    background: 
    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
    padding: 10px;
+=======
+border: solid black 1px;
+display: flex;    
+flex-direction: row;
+flex-wrap: wrap;
+margin: 10px;
+
+>>>>>>> 2831c9586fbc4d644b02a70056e39c9b4ea45cec
 }
 
-.bildgal2{
-    text-align: left;
-    border: solid black 2px;
-   width: 700px;
-   margin: 10px;
-   background: 
-   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   padding: 10px;
+.rightfigure
+{
+    float:right;
+    text-align: center;
 }
 
-.bildgal3{
-    text-align: left;
-    border: solid black 2px;
-   width: 700px;
-   margin: 10px;
-   background: 
-   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   padding: 10px;
+body{
+    margin: 0;
+    padding: 0;
+    }
+
+.slidershow{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
 }
 
-.bildgal4{
-    text-align: left;
-    border: solid black 2px;
-   width: 700px;
-   margin: 10px;
-   background: 
-   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   padding: 10px;
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.bildgal5{
-    text-align: left;
-    border: solid black 2px;
-   width: 700px;
-   margin: 10px;
-   background: 
-   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   padding: 10px;
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
 }
 
-.bildgal6{
-    text-align: left;
-    border: solid black 2px;
-   width: 700px;
-   margin: 10px;
-   background: 
-   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   padding: 10px;
+.bar{
+width: 50px;
+height: 10px;
+border: 2px solid hsl(240, 73%, 42%);
+margin: 6px;
+cursor: pointer;
+transition: 0.4s;
 }
 
-.bildgal7{
-    text-align: left;
-    border: solid black 2px;
-   width: 700px;
-   margin: 10px;
-   background: 
-   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   padding: 10px;
+.bar:hover{
+    background: hsl(240, 73%, 42%);
 }
 
 
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
 }
 
-.bildgal8{
-    text-align: left;
-    border: solid black 2px;
-   width: 700px;
-   margin: 10px;
-   background: 
-   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   padding: 10px;
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
 }
 
+.slides{
+    width:20%;
+    transition: 0.6s;
+
 }
 
-.bildgal9{
-    text-align: left;
-    border: solid black 2px;
-   width: 700px;
-   margin: 10px;
-   background: 
-   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   padding: 10px;
+.slide img{
+    width: 100%;
+    height: 100%;
 }
 
-
-.bildgal10{
-    text-align: left;
-    border: solid black 2px;
-   width: 700px;
-   margin: 10px;
-   background: 
-   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   padding: 10px;
+#r1:checked ~ .s1{
+    margin-left: 0;
 }
 
-.bildgal11{
-    text-align: left;
-    border: solid black 2px;
-   width: 700px;
-   margin: 10px;
-   background: 
-   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   padding: 10px;
+#r2:checked ~ .s1{
+    margin-left: -20%;
 }
 
-.bildgal12{
-    text-align: left;
-    border: solid black 2px;
-   width: 700px;
-   margin: 10px;
-   background: 
-   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   padding: 10px;
+#r3:checked ~.s1{
+    margin-left: -40%;
 }
 
+#r4:checked ~.s1{
+    margin-left: -60%;
+}
 
+/*ende Bildgalerie*/
+
+<<<<<<< HEAD
 <<<<<<< HEAD
 ----------------------------------------------
 =======
 /* Bildaglerie ende*/
 >>>>>>> 6d66e33821b5a9104be7ecce17e336c0611f3377
+=======
+.flexboxdiskografie{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align:left;
+    border: solid black 2px;
+    margin: 10px;
+}
+>>>>>>> 2831c9586fbc4d644b02a70056e39c9b4ea45cec
