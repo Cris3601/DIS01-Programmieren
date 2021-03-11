@@ -1,7 +1,9 @@
 #navigation a:hover {
+    /*Sorgt dafür das beim Hovern über der Suchleiste die Begriffe Rot werden*/
     color: red
 }
 
+/*Einstellungen der Positionen der Bilder sowie deren Bildgröße*/
 .bildstart {
     width: 300px;
     height: 110px;
@@ -20,13 +22,15 @@
     height: 200px;
 }
 
+/*Der Media Befehl sagt aus, dass bei einem Bildschrim kleiner als 1000px die Flexboxen gewrapt werden sollen damit diese wieder vollständing zusehen sind*/
 @media (min-width:1000px) {
     .flexcontainerbio {
-        /* Die Properties bedeuten, alles im FLex container wird als Flexbox definiert, Die Textblöcke sollen in Reihen dargestellt werden und bei Bildschrimverengung schmaler werdne und sich der Bildbreite anpassen*/
+        /* Hier ist der obercontainer flexcontainer welcher durch den befehl flex die flexboxen als diese definiert*/
         display: flex;
     }
 }
 
+/*einzelne Flexboxen mit ihrem jeweiligen Styling*/
 .flexboxbio1 {
     border: solid black 1px;
     margin: 10px;
@@ -49,7 +53,8 @@
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
-.falcoleben {
+/*Überschriften Mittig Positionieren*/
+h1 {
     text-align: center;
 }
 
@@ -57,18 +62,17 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
 }
 
+/* mit order kann man die reihenfolge verschiedener flexboxen ändern*/
 .flexboxbeliebt1 {
     border: solid black 1px;
     padding: 10px;
     order: 1;
-    margin-bottom: 15px;
     font-weight: 700;
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-
+    margin-bottom: 15px;
 }
 
 .flexboxbeliebt2 {
@@ -80,7 +84,6 @@
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
-
 
 .flexboxbeliebt3 {
     border: solid black 1px;
@@ -97,6 +100,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
+        /* mit justify content wird der selbe abstand zwischen den zeilen erzeugt sowohl als auch an den rändern.*/
     }
 }
 
@@ -107,13 +111,12 @@
 
 .flexboxstart2 {
     border: solid black 1px;
-
 }
 
 .block3 {
+    /* Dicke der Schrift*/
     font-weight: 600;
 }
-
 
 .block2 {
     /*Hintergrundfarbe und Zeilenabstand*/
@@ -124,15 +127,13 @@
     font-weight: 600;
 }
 
-/* Hintergrundfarbe für das Article Element auf der Startseite. background lässt den Hintergrund mit css designen, linear gradient heißt farben sollen verlaufen, 45deg steht für den Winkel der rotation, dann die beiden farben und die % sind dafür da zu bestimmen wie viel % des Bildschrimes eingenommen werden soll.*/
+/* Hintergrundfarbe für das Article Element auf der Startseite. background lässt den Hintergrund mit css designen, linear gradient heißt farben sollen verlaufen, dann werden zwei farben eingetragen und zu wie viel % sie teil des Farbverlaufes sein sollen. */
 #start1 {
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-
 }
 
 #start2 {
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-
 }
