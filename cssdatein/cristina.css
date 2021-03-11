@@ -1,114 +1,120 @@
-.flexboxinterview {
 
-        display: flex;
-        justify-content: space-between;
-        text-align: left;
-        border: solid black 2px;
-        margin: 10px;
-        background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+figure {
+    text-align: center;
+    border: solid black 2px;
+    padding: 2px;
+    /*width: 250px;*/
+    margin: 10px;
 }
 
-.flexboxinterview2{
+img {
+    width: 250px;
+    height: 150px;
+
+}
+
+figcaption {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 2px;
+
+}
+
+.flexboxinterview {
+
     display: flex;
     justify-content: space-between;
     text-align: left;
     border: solid black 2px;
     margin: 10px;
     background:
-    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+.flexboxinterview2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border: solid black 2px;
+    margin: 10px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
 
-.Bildint{
+.Bildint {
     border: solid black 2px;
     background:
-    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     justify-content: space-between;
     margin: 10px;
     text-align: center;
     display: flex;
 }
 
-.diskocon{
+.diskocon {
     display: flex;
     flex-direction: row;
 
 }
-.flexboxdiskografie{
-   flex:1;
-    justify-content: space-between;
-    border: solid black 2px;
-    margin: 10px;
-    background:
-    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}
 
-.flexboxdiskografie2{
+.flexboxdiskografie {
     flex: 1;
     justify-content: space-between;
     border: solid black 2px;
     margin: 10px;
     background:
-    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
-figure { 
+.flexboxdiskografie2 {
+    flex: 1;
+    justify-content: space-between;
     border: solid black 2px;
-    padding: 2px;
-    max-width: 250px;
     margin: 10px;
-    text-align: center;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
-img {
-        width: 250px;
-        height: 150px;
-      
-    
+
+
+.maincon {
+    display: flex;
+
+
 }
-figcaption {
-            background-color: rgb(0, 0, 0);
-            color: rgb(255, 255, 255);
-            padding: 2px;
-           
-        }
 
-        .maincon{
-            display: flex;
-
-
-        }
 .flexboxadresse {
-            flex: 1;
-            justify-content:space-around;
-            list-style: none;
-            text-align:center;
-            border: solid black 2px;
-            margin: 10px;
-            background:
-            linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-          
+    flex: 1;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    border: solid black 2px;
+    margin: 10px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+
 }
-            
+
 .flexboxpostanschrift {
-                flex: 1;
-                text-align: center;
-                border: solid black 2px;
-                margin: 10px;
-                background:
-                linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-                
+    flex: 1;
+    text-align: center;
+    border: solid black 2px;
+    margin: 10px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+
 }
+
 .flexboxmitwirkende {
     flex: 1;
-    text-align:center;
+    text-align: center;
     border: solid black 2px;
     margin: 10px;
     background:
-    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
-h1{
+h1 {
     text-align: center;
 }
