@@ -1,16 +1,14 @@
-
 figure {
     text-align: center;
     border: solid black 2px;
     padding: 2px;
-    /*width: 250px;*/
+    /* width: 270px;*/
     margin: 10px;
 }
 
 img {
     width: 250px;
     height: 150px;
-
 }
 
 figcaption {
