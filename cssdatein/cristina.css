@@ -1,10 +1,7 @@
-
-
 .flexboxinterview {
 
         display: flex;
         justify-content: space-between;
-        list-style: none;
         text-align: left;
         border: solid black 2px;
         margin: 10px;
@@ -15,12 +12,22 @@
 .flexboxinterview2{
     display: flex;
     justify-content: space-between;
-    
     text-align: left;
     border: solid black 2px;
     margin: 10px;
     background:
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+
+.Bildint{
+    border: solid black 2px;
+    background:
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+    display: flex;
 }
 
 .diskocon{
@@ -48,15 +55,6 @@
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
-.Bildint{
-    border: solid black 2px;
-    background:
-    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-    justify-content: space-between;
-    margin: 10px;
-    text-align: center;
-    display: flex;
-}
 figure { 
     border: solid black 2px;
     padding: 2px;
@@ -95,7 +93,6 @@ figcaption {
             
 .flexboxpostanschrift {
                 flex: 1;
-                list-style: none;
                 text-align: center;
                 border: solid black 2px;
                 margin: 10px;
@@ -105,13 +102,11 @@ figcaption {
 }
 .flexboxmitwirkende {
     flex: 1;
-    list-style-type:none;
     text-align:center;
     border: solid black 2px;
     margin: 10px;
     background:
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   
 }
 
 h1{
