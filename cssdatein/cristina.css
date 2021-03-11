@@ -15,7 +15,7 @@
 .flexboxinterview2{
     display: flex;
     justify-content: space-between;
-    list-style: none;
+    
     text-align: left;
     border: solid black 2px;
     margin: 10px;
@@ -23,10 +23,14 @@
     linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
-.flexboxdiskografie{
+.diskocon{
     display: flex;
+    flex-direction: row;
+
+}
+.flexboxdiskografie{
+   
     justify-content: space-between;
-    list-style: none;
     text-align: left;
     border: solid black 2px;
     margin: 10px;
@@ -35,9 +39,8 @@
 }
 
 .flexboxdiskografie2{
-    display: flex;
+    
     justify-content: space-between;
-    list-style: none;
     text-align: left;
     border: solid black 2px;
     margin: 10px;
@@ -54,16 +57,17 @@
     text-align: center;
     display: flex;
 }
-figure { border: solid black 2px;
-    display: flex;
-    flex-flow:column;
+figure { 
+    border: solid black 2px;
     padding: 2px;
     max-width: 250px;
-    margin: 0px;}
+    margin: 10px;}
 
 img {
         width: 250px;
         height: 150px;
+  
+    
 }
 figcaption {
             background-color: rgb(0, 0, 0);
@@ -71,3 +75,45 @@ figcaption {
             padding: 2px;
             text-align:center;
         }
+
+        .maincon{
+            display: flex;
+
+
+        }
+.flexboxadresse {
+            flex: 1;
+            justify-content:space-around;
+            list-style: none;
+            text-align:center;
+            border: solid black 2px;
+            margin: 10px;
+            background:
+            linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+          
+}
+            
+.flexboxpostanschrift {
+                flex: 1;
+                list-style: none;
+                text-align: center;
+                border: solid black 2px;
+                margin: 10px;
+                background:
+                linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+                
+}
+.flexboxmitwirkende {
+    flex: 1;
+    list-style-type:none;
+    text-align:center;
+    border: solid black 2px;
+    margin: 10px;
+    background:
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   
+}
+
+h1{
+    text-align: center;
+}
