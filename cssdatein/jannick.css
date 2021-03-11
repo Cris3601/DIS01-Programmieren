@@ -1,24 +1,33 @@
-/*Jannick Code*/
-
+/*Jannick Kracht CSS-Code*/
+/*Anpassen der Überschrift, um den Größenunterschied zwischen Überschrift und Text etwas anzupassen*/
 h2 {
     font-size: 20px;
     font-weight: 700;
 
 }
 
+/*positioniert das Bild rechts im Container und schreibt den Titel vom Bild zentriert darunter*/
+.rightfigure
+{
+    float:right;
+    text-align: center;
+}
+
+/*Bildgröße angepasst, damit es gut im den zwei Spalten untergebracht werden kann*/
 .img1 {
     width: 250px;
 }
-
+/*Parent-Element zu box1 und box2, bei einer Minimalbreite von 1000px wird der Flexcontainer aktiviert und die zwei Spalten werden in einer Spalte dargestellt */
 @media (min-width:1000px) {
     .flex-container {
         display: flex;
     }
 }
-
+/*Kind-Element von flex-container, stellen je eine Spalte in der Ansicht da */
 .box1 {
     flex: 1;
-    background-color: aliceblue;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     border: solid black 1px;
     padding: 10px;
     margin: 10px;
@@ -26,28 +35,23 @@ h2 {
 
 .box2 {
     flex: 1;
-    background-color: aliceblue;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);    
     border: solid black 1px;
     padding: 10px;
     margin: 10px;
 }
 
+/*stellt den Text der Class zentriert da*/
 .central {
     text-align: center;
 }
 
+/*speziell für h1 geschrieben um die Überschrift aufzupeppen*/
 .hcentral {
     font-size: 30px;
     font-weight: 700;
     color: grey;
     text-align: center;
 }
-
-
-.rightfigure
-{
-    float:right;
-    text-align: center;
-}
-
 
