@@ -36,9 +36,8 @@
 
 }
 .flexboxdiskografie{
-   
+   flex:1;
     justify-content: space-between;
-    text-align: left;
     border: solid black 2px;
     margin: 10px;
     background:
@@ -46,9 +45,8 @@
 }
 
 .flexboxdiskografie2{
-    
+    flex: 1;
     justify-content: space-between;
-    text-align: left;
     border: solid black 2px;
     margin: 10px;
     background:
@@ -59,19 +57,21 @@ figure {
     border: solid black 2px;
     padding: 2px;
     max-width: 250px;
-    margin: 10px;}
+    margin: 10px;
+    text-align: center;
+}
 
 img {
         width: 250px;
         height: 150px;
-  
+      
     
 }
 figcaption {
             background-color: rgb(0, 0, 0);
             color: rgb(255, 255, 255);
             padding: 2px;
-            text-align:center;
+           
         }
 
         .maincon{
