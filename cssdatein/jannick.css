@@ -7,9 +7,8 @@ h2 {
 }
 
 /*positioniert das Bild rechts im Container und schreibt den Titel vom Bild zentriert darunter*/
-.rightfigure
-{
-    float:right;
+.rightfigure {
+    float: right;
     text-align: center;
 }
 
@@ -17,12 +16,14 @@ h2 {
 .img1 {
     width: 250px;
 }
+
 /*Parent-Element zu box1 und box2, bei einer Minimalbreite von 1000px wird der Flexcontainer aktiviert und die zwei Spalten werden in einer Spalte dargestellt */
 @media (min-width:1000px) {
     .flex-container {
         display: flex;
     }
 }
+
 /*Kind-Element von flex-container, stellen je eine Spalte in der Ansicht da */
 .box1 {
     flex: 1;
@@ -36,11 +37,12 @@ h2 {
 .box2 {
     flex: 1;
     background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);    
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     border: solid black 1px;
     padding: 10px;
     margin: 10px;
 }
+
 
 /*stellt den Text der Class zentriert da*/
 .central {
@@ -54,4 +56,3 @@ h2 {
     color: grey;
     text-align: center;
 }
-
