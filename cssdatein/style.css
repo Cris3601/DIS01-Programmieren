@@ -35,3 +35,38 @@ table {
     border-bottom: solid;
     margin: 15px;
 }
+
+.box1 {
+    flex: 1;
+    border: solid black 2px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+        padding: 10px;
+    margin: 10px;
+}
+.box2 {
+    flex: 1;
+    border: solid black 2px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+    padding: 10px;
+    margin: 10px;
+}
+.box3 {
+    flex: 1;
+    border: solid black 2px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+        padding: 10px;
+    margin: 10px;
+}
+
+@media (min-width:1000px) {
+    .flex-container {
+        display: flex;
+    }
+}
+
+.central{
+    text-align: center;
+}

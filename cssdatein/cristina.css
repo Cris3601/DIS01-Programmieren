@@ -9,7 +9,7 @@ img {
     height: 250px;
 }
 
-.box1 {
+/*.box1 {
     flex: 1;
     border: solid black 2px;
     background:
@@ -42,4 +42,4 @@ img {
 
 .central{
     text-align: center;
-}
+}*/
