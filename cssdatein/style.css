@@ -4,19 +4,20 @@
 
 nav ul {
     display: flex;
-    border: solid black 2px;
-    background-color: #D8D8DA;
-    justify-content: space-between;
-    list-style: none;
     flex-wrap: wrap;
-    /*display: flex;
-    justify-content: space-between;
-    border: solid black 2px;
-    background-color: #D8D8DA;
-    list-style: none;
-    flex-wrap: wrap;*/
 }
-
+nav ul li {
+    flex: 1;
+    border: solid black 2px;
+    padding: 5px;
+    background-color: gainsboro;
+    list-style: none;
+    text-align: center;
+    
+}
+nav ul li:hover {
+    background-color: aliceblue;
+}
 li {
     /* linie rechts vom text als worttrenner macht das ganze übersichtlicher*/
     padding-right: 2px;

@@ -8,24 +8,67 @@
     width: 300px;
     height: 110px;
     float: right;
+    border: solid black 5px;
+    border-radius: 10px;
 }
 
 .bildbio {
     height: 200px;
     width: 200px;
     float: right;
+    border: solid black 5px;
+    border-radius: 10px;
 }
 
 .bildsong {
     float: right;
-    width: 300px;
-    height: 200px;
+    width: 500px;
+    height: 400px;
+    border: solid black 5px;
+    border-radius: 10px;
+}
+
+/* Hier ist der obercontainer flexcontainer welcher durch den befehl flex die flexboxen als diese definiert*/
+@media (min-width:1000px) {
+    .flexcontainer{
+        display: flex;
+    }
+}
+.flexbox1 {
+    flex: 1;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+    border: solid black 1px;
+    padding: 10px;
+    margin: 10px;
+}
+/* Hintergrundfarbe für das Article Element auf der Startseite. background lässt den Hintergrund mit css designen, linear gradient heißt farben sollen verlaufen, dann werden zwei farben eingetragen und zu wie viel % sie teil des Farbverlaufes sein sollen. */
+.flexbox2 {
+    flex: 1;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+    border: solid black 1px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.block3 {
+    /* Dicke der Schrift*/
+    font-weight: 600;
+}
+
+.block2 {
+    /*Hintergrundfarbe und Zeilenabstand*/
+    color: darkred;
+}
+
+.block4 {
+    font-weight: 600;
 }
 
 /*Der Media Befehl sagt aus, dass bei einem Bildschrim kleiner als 1000px die Flexboxen gewrapt werden sollen damit diese wieder vollständing zusehen sind*/
 @media (min-width:1000px) {
     .flexcontainerbio {
-        /* Hier ist der obercontainer flexcontainer welcher durch den befehl flex die flexboxen als diese definiert*/
         display: flex;
     }
 }
@@ -55,17 +98,20 @@
 
 /*Überschriften Mittig Positionieren*/
 h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: grey;
     text-align: center;
 }
 
 .flexcontainerbeliebt {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
 }
 
 /* mit order kann man die reihenfolge verschiedener flexboxen ändern*/
 .flexboxbeliebt1 {
+    flex: 1;
     border: solid black 1px;
     padding: 10px;
     order: 1;
@@ -76,6 +122,7 @@ h1 {
 }
 
 .flexboxbeliebt2 {
+    flex: 1;
     font-size: 18px;
     border: solid black 1px;
     padding: 10px;
@@ -83,7 +130,9 @@ h1 {
     text-align: center;
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+
 }
+
 
 .flexboxbeliebt3 {
     border: solid black 1px;
@@ -93,48 +142,6 @@ h1 {
     margin-bottom: 15px;
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   
 }
 
-@media (min-width:1000px) {
-    .flexcontainerstart {
-        display: flex;
-       flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-around;
-        /* mit justify content wird der selbe abstand zwischen den zeilen erzeugt sowohl als auch an den rändern.*/
-    }
-}
-
-.flexboxstart1 {
-    border: solid black 1px;
-    margin-bottom: 30px;
-}
-
-.flexboxstart2 {
-    border: solid black 1px;
-}
-
-.block3 {
-    /* Dicke der Schrift*/
-    font-weight: 600;
-}
-
-.block2 {
-    /*Hintergrundfarbe und Zeilenabstand*/
-    color: darkred;
-}
-
-.block4 {
-    font-weight: 600;
-}
-
-/* Hintergrundfarbe für das Article Element auf der Startseite. background lässt den Hintergrund mit css designen, linear gradient heißt farben sollen verlaufen, dann werden zwei farben eingetragen und zu wie viel % sie teil des Farbverlaufes sein sollen. */
-#start1 {
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}
-
-#start2 {
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}
