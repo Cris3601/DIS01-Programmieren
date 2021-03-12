@@ -1,23 +1,18 @@
-h1 {
-    /*Das ist unser Google-Font den wir benutzen*/
-    /*font-family: 'Source Sans Pro', sans-serif;*/
+ h1 {
     font-family: 'Cormorant Unicase', serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-}
-h1 {
     font-size: 30px;
     font-weight: 700;
     color: grey;
     text-align: center;
 }
+
 @media (min-width:1000px) {
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-}
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
     }
+}
+
 nav ul li {
     flex: 1;
     border: solid black 2px;
@@ -25,12 +20,11 @@ nav ul li {
     background-color: gainsboro;
     list-style: none;
     text-align: center;
-    
 }
 
 nav ul li:hover {
     background-color: aliceblue;
-       color: red 
+    color: red
 }
 
 /*Tabellen Style für Biografie*/

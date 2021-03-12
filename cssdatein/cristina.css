@@ -1,117 +1,45 @@
-figure {
-    text-align: center;
-    border: solid black 2px;
-    padding: 2px;
-    /* width: 270px;*/
-    margin: 10px;
-}
 
 img {
     width: 250px;
-    height: 150px;
+    /*height: 250px;*/
 }
 
-figcaption {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    padding: 2px;
-
-}
-.interview{
-    display: flex;
+.img1{
+      width: 250px;
+    height: 250px;
 }
 
-.flexboxinterview {
-    flex: 1;
-    border: solid black 2px;
-    margin: 10px;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}
-
-.flexboxinterview2 {
-    flex: 1;
-    border: solid black 2px;
-    margin: 10px;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}
-
-
-.Bildint {
+.box1 {
     flex: 1;
     border: solid black 2px;
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-   
+        padding: 10px;
     margin: 10px;
- 
-    
 }
-@media (min-width: 1000px){
-.diskocon {
-    display: flex;
-    /*flex-direction: row;*/
-
-}}
-
-.flexboxdiskografie {
+.box2 {
     flex: 1;
-    justify-content: space-between;
     border: solid black 2px;
-    margin: 10px;
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}
-
-.flexboxdiskografie2 {
-    flex: 1;
-    justify-content: space-between;
-    border: solid black 2px;
+    padding: 10px;
     margin: 10px;
+}
+.box3 {
+    flex: 1;
+    border: solid black 2px;
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}
-
-
-@media (min-width: 1000px){
-.maincon {
-    display: flex;
-
-
-    }}
-
-.flexboxadresse {
-    flex: 1;
-    justify-content: space-around;
-    list-style: none;
-    text-align: center;
-    border: solid black 2px;
+        padding: 10px;
     margin: 10px;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-
 }
 
-.flexboxpostanschrift {
-    flex: 1;
-    text-align: center;
-    border: solid black 2px;
-    margin: 10px;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-
+@media (min-width:1000px) {
+    .flexcontainer {
+        display: flex;
+    }
 }
 
-.flexboxmitwirkende {
-    flex: 1;
-    text-align: center;
-    border: solid black 2px;
-    margin: 10px;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}
-
-h1 {
+.central{
     text-align: center;
 }
