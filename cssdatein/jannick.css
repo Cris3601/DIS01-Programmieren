@@ -1,4 +1,32 @@
 /*Jannick Kracht CSS-Code*/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: normal;
+}
+
+/*Flexcontainer für die Navigation*/
+@media (min-width:1000px) {
+    nav ul {
+        display: flex;
+    }
+}
+
+/*Einzelfelder der Navigationsleiste*/
+nav ul li {
+    flex: 1;
+    border: solid black 2px;
+    padding: 5px;
+    background-color: gainsboro;
+    list-style: none;
+    text-align: center;
+}
+
+/*Färbt das Listenelement, das mit der Maus berührt wird*/
+nav ul li:hover {
+    background-color: aliceblue;
+}
+
 /*Anpassen der Überschrift, um den Größenunterschied zwischen Überschrift und Text etwas anzupassen*/
 h2 {
     font-size: 20px;
