@@ -98,7 +98,8 @@ h1 {
 @media (min-width:1000px) {
     .flexcontainerstart {
         display: flex;
-        flex-wrap: wrap;
+       flex-wrap: wrap;
+        flex-direction: row;
         justify-content: space-around;
         /* mit justify content wird der selbe abstand zwischen den zeilen erzeugt sowohl als auch an den rändern.*/
     }
