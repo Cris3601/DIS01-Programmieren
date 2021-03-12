@@ -1,4 +1,3 @@
-
 /*Einstellungen der Positionen der Bilder sowie deren Bildgröße*/
 .bildstart {
     width: 300px;
@@ -27,10 +26,11 @@
 
 /* Parentelement Flexcontainer , Display Flex propertie ermöglicht Positionierung der Blöcke*/
 @media (min-width:1000px) {
-    .flexcontainer2{
+    .flexcontainer2 {
         display: flex;
     }
 }
+
 .flexbox1 {
     flex: 1;
     background:
@@ -38,6 +38,7 @@
     border: solid black 1px;
     margin: 10px;
 }
+
 /* Hintergrundfarbe für das Article Element auf der Startseite. background lässt den Hintergrund mit css designen, linear gradient heißt farben sollen verlaufen, dann werden zwei farben eingetragen und zu wie viel % sie teil des Farbverlaufes sein sollen. */
 .flexbox2 {
     flex: 1;
@@ -94,10 +95,11 @@
 }
 
 @media (min-width:1000px) {
-.flexcontainerbeliebt {
-    display: flex;
+    .flexcontainerbeliebt {
+        display: flex;
+    }
 }
-}
+
 .flexboxbeliebt1 {
     border: solid black 1px;
     margin: 10px;
@@ -107,13 +109,15 @@
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     line-height: 2;
 }
+
 .flexboxbeliebt2 {
     border: solid black 1px;
     margin: 10px;
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
-.flexboxbeliebt3{
+
+.flexboxbeliebt3 {
     font-size: 20px;
     border: solid black 1px;
     margin: 10px;
@@ -121,5 +125,3 @@
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
-
-
