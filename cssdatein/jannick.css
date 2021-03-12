@@ -17,11 +17,7 @@
     }
 }*/
 
-/*Anpassen der Überschrift, um den Größenunterschied zwischen Überschrift und Text etwas anzupassen*/
-h2 {
-    font-size: 20px;
-    font-weight: 700;
-}
+
 
 /*positioniert das Bild rechts im Container und schreibt den Titel vom Bild zentriert darunter*/
 .rightfigure {
