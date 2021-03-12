@@ -4,11 +4,17 @@
 
 nav ul {
     display: flex;
+    border: solid black 2px;
+    background-color: #D8D8DA;
+    justify-content: space-between;
+    list-style: none;
+    flex-wrap: wrap;
+    /*display: flex;
     justify-content: space-between;
     border: solid black 2px;
     background-color: #D8D8DA;
     list-style: none;
-    flex-wrap: wrap;
+    flex-wrap: wrap;*/
 }
 
 li {
@@ -27,10 +33,11 @@ table {
     margin: 15px;
 }
 
-
+/*
 .uberschrift {/* Fügt die Linie rechts vom Wort in der Suchleiste ein um diese visuell besser zu trennen*/
+/*
     border-right: solid black 2px;
-}
+}*/
 
 body {
     /*Das ist unser Google-Font den wir benutzen*/

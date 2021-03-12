@@ -1,58 +1,73 @@
+figure {
+    text-align: center;
+    border: solid black 2px;
+    padding: 2px;
+    /* width: 270px;*/
+    margin: 10px;
+}
 
+img {
+    width: 250px;
+    height: 150px;
+}
+
+figcaption {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 2px;
+
+}
 
 .flexboxinterview {
 
     display: flex;
     justify-content: space-between;
+    text-align: left;
     border: solid black 2px;
-    background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-    list-style: none;
+    margin: 10px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
-.diskografie
-{
+.flexboxinterview2 {
     display: flex;
     justify-content: space-between;
+    text-align: left;
     border: solid black 2px;
-    background-color: #D8D8DA;
-    list-style: none;
-}
-/* folgende Elemente für die Bildgalerie*/
-.bildgalerie
-{
-    display: flex;
-    justify-content: space-between;
-    border: solid black 2px;
-    background-color: hsl(240, 73%, 42%);
-    list-style: none;
+    margin: 10px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
-.flexboxdiskografie2 {
-    border: solid black 1px;
+
+.Bildint {
+    border: solid black 2px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+    justify-content: space-between;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.diskocon {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin: 10px;
-    background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-    ;
+
 }
 
 .flexboxdiskografie {
-    display: flex;
+    flex: 1;
     justify-content: space-between;
-    list-style: none;
-    text-align: left;
     border: solid black 2px;
     margin: 10px;
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
-.flexboxinterview2{
-    display: flex;
+.flexboxdiskografie2 {
+    flex: 1;
     justify-content: space-between;
-    list-style: none;
-    text-align: left;
     border: solid black 2px;
     margin: 10px;
     background:
@@ -61,25 +76,43 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.flexboxdiskografie{
+.maincon {
     display: flex;
-    justify-content: space-between;
-    list-style: none;
-    text-align:left;
-    border: solid black 2px;
-    margin: 10px;
+
+
 }
 
+.flexboxadresse {
+    flex: 1;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+    border: solid black 2px;
+    margin: 10px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+
+}
+
+.flexboxpostanschrift {
+    flex: 1;
+    text-align: center;
+    border: solid black 2px;
+    margin: 10px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+
+}
+
+.flexboxmitwirkende {
+    flex: 1;
+    text-align: center;
+    border: solid black 2px;
+    margin: 10px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+h1 {
+    text-align: center;
+}
