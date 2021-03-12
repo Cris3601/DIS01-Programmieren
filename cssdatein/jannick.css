@@ -1,10 +1,10 @@
 /*Jannick Kracht CSS-Code*/
-body {
+/*body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     line-height: normal;
 }
-
+*/
 /*Einzelfelder der Navigationsleiste*/
 /*
 nav ul li {
@@ -23,11 +23,11 @@ nav ul li {
     }
 }
 
-/*Färbt das Listenelement, das mit der Maus berührt wird*/
+/*Färbt das Listenelement, das mit der Maus berührt wird
 nav ul li:hover {
     background-color: aliceblue;
 }
-
+*/
 /*Anpassen der Überschrift, um den Größenunterschied zwischen Überschrift und Text etwas anzupassen*/
 h2 {
     font-size: 20px;
@@ -82,10 +82,11 @@ h2 {
     text-align: center;
 }
 
-/*speziell für h1 geschrieben um die Überschrift aufzupeppen*/
+/*speziell für h1 geschrieben um die Überschrift aufzupeppen
 .hcentral {
     font-size: 30px;
     font-weight: 700;
     color: grey;
     text-align: center;
 }
+*/

@@ -1,11 +1,22 @@
-#navigation a:hover {
-    color: red
+body {
+    /*Das ist unser Google-Font den wir benutzen*/
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
-
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: grey;
+    text-align: center;
+}
+@media (min-width:1000px) {
 nav ul {
     display: flex;
     flex-wrap: wrap;
 }
+    }
 nav ul li {
     flex: 1;
     border: solid black 2px;
@@ -15,14 +26,10 @@ nav ul li {
     text-align: center;
     
 }
+
 nav ul li:hover {
     background-color: aliceblue;
-}
-li {
-    /* linie rechts vom text als worttrenner macht das ganze übersichtlicher*/
-    padding-right: 2px;
-    border-right: solid black 2px;
-    line-height: 2
+       color: red 
 }
 
 /*Tabellen Style für Biografie*/
@@ -40,10 +47,3 @@ table {
     border-right: solid black 2px;
 }*/
 
-body {
-    /*Das ist unser Google-Font den wir benutzen*/
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-}

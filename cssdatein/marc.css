@@ -1,7 +1,3 @@
-#navigation a:hover {
-    /*Sorgt dafür das beim Hovern über der Suchleiste die Begriffe Rot werden*/
-    color: red
-}
 
 /*Einstellungen der Positionen der Bilder sowie deren Bildgröße*/
 .bildstart {
@@ -30,7 +26,7 @@
 
 /* Hier ist der obercontainer flexcontainer welcher durch den befehl flex die flexboxen als diese definiert*/
 @media (min-width:1000px) {
-    .flexcontainer{
+    .flexcontainer2{
         display: flex;
     }
 }
@@ -39,7 +35,6 @@
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     border: solid black 1px;
-    padding: 10px;
     margin: 10px;
 }
 /* Hintergrundfarbe für das Article Element auf der Startseite. background lässt den Hintergrund mit css designen, linear gradient heißt farben sollen verlaufen, dann werden zwei farben eingetragen und zu wie viel % sie teil des Farbverlaufes sein sollen. */
@@ -48,7 +43,6 @@
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
     border: solid black 1px;
-    padding: 10px;
     margin: 10px;
 }
 
@@ -96,16 +90,10 @@
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
-/*Überschriften Mittig Positionieren*/
-h1 {
-    font-size: 30px;
-    font-weight: 700;
-    color: grey;
-    text-align: center;
-}
 @media (min-width:1000px) {
 .flexcontainerbeliebt {
     display: flex;
+    flex-direction: column;
     
 }
 }
