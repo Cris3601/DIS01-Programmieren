@@ -42,15 +42,19 @@ h2 {
 }
 
 /*Bildgröße angepasst, damit es gut im den zwei Spalten untergebracht werden kann*/
-.img1 {
+#img1, #img2 {
     width: 250px;
 }
 
 @media (max-width:1000px){
-    .img1{
+    #img1, #img2{
         width:100%;
     }
 }
+
+/*#img2{
+    width: 250px;
+}*/
 /*Kind-Element von flex-container, stellen je eine Spalte in der Ansicht da */
 .box1 {
     flex: 1;

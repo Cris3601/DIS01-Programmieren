@@ -6,14 +6,14 @@
     <meta charset="UTF-8">
     <title>Ehrungen</title>
     <!--ein allgemeines Stylesheet, das Elemente enthält, die jedes Gruppenmitglied nutzt und ein persönliches Stylesheet-->
-<!--    <link href="../cssdatein/style.css" rel="stylesheet">
+    <!--    <link href="../cssdatein/style.css" rel="stylesheet">
 <link href="../cssdatein/style.css" rel="stylesheet">
--->    
+-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link href="../cssdatein/style.css" rel="stylesheet">
     <link href="../cssdatein/jannick.css" rel="stylesheet">
-    
+
 </head>
 
 <body>
@@ -40,8 +40,13 @@
             <div class="box1">
                 <h2>Verliehene Ehrungen</h2>
                 <figure class="rightfigure">
-                    <img class="img1" src="../Bilder/falco-statue.jpg">
-                    <figcaption class="central">Falco Statue</figcaption>
+                    <img id="img1" src="../Bilder/falco-statue.jpg">
+                    <figcaption class="central">
+                        <button onclick="show_hide('img1')">
+                            Hide and Show
+                        </button>
+                        <script src="../javascript/show_and_hide.js"></script>
+                    </figcaption>
                 </figure>
                 <p>
                     Im Jahr 1986 wurde Falco vom Wiener Bürgermeister Helmut Zilk das <strong>Goldene Verdienstzeichen</strong> des Landes Wien verliehen.
@@ -54,8 +59,13 @@
             </div>
             <div class="box2">
                 <figure class="rightfigure">
-                    <img class="img1" src="../Bilder/falco-platz.jpg">
-                    <figcaption class="central">Falco Platz</figcaption>
+                    <img id="img2" src="../Bilder/falco-platz.jpg">
+                    <figcaption class="central">
+                        <button onclick="show_hide('img2')">
+                            Hide and Show
+                        </button>
+                        <script src="../javascript/show_and_hide.js"></script>
+                    </figcaption>
                 </figure>
                 <p>
                     Im Februar 2019 wurde in Wien, am Schwarzenbergplatz, ein <strong>Themenlokal</strong> zu Ehren von Falco errichtet. Das Lokal ist mit goldenen Schallplatten, privaten Fotos und der roten, mit goldenen Biesen besetzten Uniform-Jacke dekoriert. In etwa 20 % der gespielten Musik sind Lieder von Falco.
@@ -81,6 +91,4 @@
 
 
 
-</body>
-
-</html>
+</body></html>

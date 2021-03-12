@@ -8,10 +8,10 @@
     <!--ein allgemeines Stylesheet, das Elemente enthält, die jedes Gruppenmitglied nutzt und ein persönliches Stylesheet-->
     <!--<link href="../cssdatein/style.css" rel="stylesheet">-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link href="../cssdatein/style.css" rel="stylesheet">
     <link href="../cssdatein/jannick.css" rel="stylesheet">
-    
+
 </head>
 
 <body>
@@ -38,8 +38,13 @@
             <div class="box1">
                 <h2>Einflüsse auf Falcos Musikstil</h2>
                 <figure class="rightfigure">
-                    <img class="img1" src="../Bilder/falco-am-singen.jpg">
-                    <figcaption class="central">Falco am singen</figcaption>
+                    <img id="img1" src="../Bilder/falco-am-singen.jpg">
+                    <figcaption class="central">
+                        <button onclick="show_hide('img1')">
+                            Hide and Show
+                        </button>
+                        <script src="../javascript/show_and_hide.js"></script>
+                    </figcaption>
                 </figure>
                 <p>
                     Generell wird Falco der <strong>rockbeeinflussten Popmusik</strong> zugeordnet. Seine Musik war insbesondere in den Anfängen vom Zeitalter der New Wave und von der Neuen Deutschen Welle geprägt. Sie setzt zumeist Elemente wie Synthesizer, Sprechgesang und Beats im Bereich von 80 bis 120 bpm ein. In seiner musikalischen Laufbahn <strong>wechselte Falco mehrmals den Musikstil</strong>. Kurz vor der Veröffentlichung seines vorletzten Albums, Nachtflug, meinte Falco dazu: <q>Das ist jetzt meine siebente LP und ich bin das erste Mal stilsicher, denn ich habe keinen. Ich habe meinen journalistischen Stil der bissigen Ansage, des Reduzierens, des Aufschreibens, aber musikalisch kann ich mich jedem Stil anpassen.</q>
@@ -49,11 +54,16 @@
             </div>
             <div class="box2">
                 <h2>Musikstil: ab zweitem Album</h2>
-                <p>
+                <p id="p1">
                     Mit seinem zweiten Album, Junge Roemer, ging Falco in Richtung poporientierten Funk. Es wurde zwar von Musikkritikern gelobt, fand allerdings beim Publikum nur wenig Zustimmung. In einem späteren Interview äußerte sich Falco dazu: <q>Junge Roemer war ein absoluter Flop – wirtschaftlich. Aber von der Attitüde her was ganz Exorbitantes.</q>
                     Die nächsten Alben, Falco 3 und Emotional, verlaufen auf einer poppigeren Linie, wobei auch von Rock (America) sowie von Soul (Emotional) beeinflusste Songs zu finden sind. Der 1988 erschienene Longplayer Wiener Blut sollte ein reines Rockalbum werden. Der Titeltrack stammt ursprünglich aus einer Aufnahme-Session zu Falco 3 und ähnelt stark dem Song Vienna Calling.
                     1990 arbeitete Falco für das Album Data De Groove wieder mit Robert Ponger zusammen, der bereits sein Debütalbum produziert hatte. Er wollte damit auch musikalisch an Einzelhaft anschließen, doch ähnelt es diesem nur wenig. Die Produktion Pongers, der moderne Dancefloor-Elemente der 1990er Jahre einfließen ließ, wurde oft als zu experimentell kritisiert.
                 </p>
+                <br>
+<!--                <button onclick="show_hide('p1')">
+                    Hide and Show
+                </button>
+                <script src="../javascript/show_and_hide.js"></script>-->
                 <p>
                     Zwei Jahre später erschien das Album Nachtflug, erneut eine Produktion von Bolland & Bolland. Musikalisch führte Falco die Linie von Falco 3 und Emotional fort. Das Album ist dem Pop-Rock zuzurechnen, wobei sich auch Reggae- und Latin-beeinflusste Songs wie Yah-Vibration oder Propaganda finden.
                     In den Jahren 1995 und 1996 wurden zwei neue Songs, Mutter der Mann mit dem Koks ist da und Naked, vorgestellt, die beide in die Richtung Techno/Eurodance gehen. Diese zwei Lieder waren auch Teil des postum erschienenen Albums Out of the Dark (Into the Light) und geben auf diesem die musikalische Richtung vor. Falco über Techno: <q>Natürlich ist Techno nicht meine Musik … wer aber Techno als momentanen, temporären Zustand versteht, der hat es leider nicht verstanden: Techno ist die originäre Jugendkultur der 90er.</q>
@@ -61,7 +71,7 @@
                 Hier zu <a href="Diskografie.html">Falkos Diskografie</a>
             </div>
         </main>
-        <!--Quellen von Bild und Text-->        
+        <!--Quellen von Bild und Text-->
         <hr>
         <footer>
             <small>
@@ -71,6 +81,5 @@
             </small>
         </footer>
     </article>
-
 
 </body></html>
