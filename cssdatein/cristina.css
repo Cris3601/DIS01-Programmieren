@@ -17,12 +17,12 @@ figcaption {
     padding: 2px;
 
 }
+.interview{
+    display: flex;
+}
 
 .flexboxinterview {
-flex: 1;
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
+    flex: 1;
     border: solid black 2px;
     margin: 10px;
     background:
@@ -31,9 +31,6 @@ flex: 1;
 
 .flexboxinterview2 {
     flex: 1;
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
     border: solid black 2px;
     margin: 10px;
     background:
@@ -46,10 +43,10 @@ flex: 1;
     border: solid black 2px;
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-    justify-content: space-between;
+   
     margin: 10px;
-    text-align: center;
-    display: flex;
+ 
+    
 }
 @media (min-width: 1000px){
 .diskocon {
