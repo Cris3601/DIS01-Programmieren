@@ -19,7 +19,7 @@ figcaption {
 }
 
 .flexboxinterview {
-
+flex: 1;
     display: flex;
     justify-content: space-between;
     text-align: left;
@@ -30,6 +30,7 @@ figcaption {
 }
 
 .flexboxinterview2 {
+    flex: 1;
     display: flex;
     justify-content: space-between;
     text-align: left;
@@ -41,6 +42,7 @@ figcaption {
 
 
 .Bildint {
+    flex: 1;
     border: solid black 2px;
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
