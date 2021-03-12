@@ -30,7 +30,7 @@
     <br>
     <h1>Interview</h1>
     <main class="flex-container">
-        <div class="box1">
+        <div class="box">
             <h2>Falco erzählt: Teil 1</h2>
             <p>
                 <span>Moderatorin:</span> Falco du lebst jetzt seit 2 Monaten wieder hier in der
@@ -81,7 +81,7 @@
             </p>
 
         </div>
-        <div class="box2">
+        <div class="box">
             <h2>Falco erzählt: Teil 2</h2>
             <p>
                 <strong>Falco:</strong> Also so darf man das nicht Fragen. Frau Stöckel da muss ich ein Klischee bringen die Frage stellt sich nicht was mache ich da, sondern die Frage stellt sich was
@@ -132,14 +132,49 @@
             </p>
         </div>
     </main>
-    <div class="box3">
-        <div class="central">
-            <h2>Einige Bilder</h2>
-            <img class="img1" src="../Bilder/Falcamanagerin.jpg">
-            <img class="img1" src="../Bilder/255px-Wien_-_Falco-Graffiti_von_Lush_Sux.jfif">
-            <img class="img1" src="../Bilder/330px-Rock_Me_Amadeus.png">
+
+    <h1>Einige Bilder</h1>
+    <div class="box">
+        <div class="flex-container">
+            <div class="box1">
+                <figure class="central">
+                    <img id="img2" src="../Bilder/Falcamanagerin.jpg">
+                    <figcation>
+                        <button onclick="show_hide('img2')">
+                            Hide and Show
+                        </button>
+                        <script src="../javascript/show_and_hide.js"></script>
+                    </figcation>
+                </figure>
+            </div>
+
+            <div class="box1">
+                <figure class="central">
+                    <img id="img3" src="../Bilder/255px-Wien_-_Falco-Graffiti_von_Lush_Sux.jfif">
+                    <figcation>
+                        <button onclick="show_hide('img3')">
+                            Hide and Show
+                        </button>
+                        <script src="../javascript/show_and_hide.js"></script>
+                    </figcation>
+                </figure>
+            </div>
+
+            <div class="box1">
+            <figure class="central">
+                <img id="img4" src="../Bilder/330px-Rock_Me_Amadeus.png">
+                <figcation>
+                    <button onclick="show_hide('img4')">
+                        Hide and Show
+                    </button>
+                    <script src="../javascript/show_and_hide.js"></script>
+                </figcation>
+            </figure>
+            </div>
+
         </div>
     </div>
+
     <hr>
     <footer>
         <small>

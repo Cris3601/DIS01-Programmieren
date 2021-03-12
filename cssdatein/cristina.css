@@ -1,49 +1,52 @@
-
+/*
 img {
     width: 250px;
-    /*height: 250px;*/
+    /*height: 250px;*//*
 }
 
-.img1{
-      width: 250px;
-    height: 250px;
-}
-
-/*.box1 {
-    flex: 1;
-    border: solid black 2px;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-        padding: 10px;
-    margin: 10px;
-}
-.box2 {
-    flex: 1;
-    border: solid black 2px;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-    padding: 10px;
-    margin: 10px;
-}
-.box3 {
-    flex: 1;
-    border: solid black 2px;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-        padding: 10px;
-    margin: 10px;
-}
-
-@media (min-width:1000px) {
-    .flexcontainer {
-        display: flex;
-    }
-}
-
-.central{
+*/
+/*figure{
     text-align: center;
 }*/
 
-span{
+#img2,
+#img3,
+#img4 {
+    width: 250px;
+    height: 250px;
+}
+
+/*figure{
+    text-align: center;
+}*/
+
+#img1 {
+    width: 250px;
+}
+
+span {
     font-weight: 700;
+}
+
+/*.centralb{
+    display: flex;
+    
+}*/
+
+/*IDs für die show_hide()-Funktion*/
+#img2,
+#img3,
+#img4{
+    width: 100%;
+    height: auto;
+}
+
+/*Anpassung der Bildergröße an einen kleineren Bildschirm*/
+@media (max-width:1000px) {
+    #img2,
+    #img3,
+    #img4{
+        width: 100%;
+        height: auto;
+    }
 }

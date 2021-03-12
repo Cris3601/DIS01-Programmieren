@@ -1,4 +1,5 @@
- h1 {
+/*Angepasste Überschrift + Google Fonds*/ 
+h1 {
     font-family: 'Cormorant Unicase', serif;
     font-size: 30px;
     font-weight: 700;
@@ -13,13 +14,7 @@ h2 {
     font-weight: 700;
 }
 
-@media (min-width:1000px) {
-    nav ul {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
+/*Einzelfelder der Navigationsleiste*/
 nav ul li {
     flex: 1;
     border: solid black 2px;
@@ -27,6 +22,13 @@ nav ul li {
     background-color: gainsboro;
     list-style: none;
     text-align: center;
+}
+
+@media (min-width:1000px) {
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 nav ul li:hover {
@@ -43,23 +45,8 @@ table {
     margin: 15px;
 }
 
-.box1 {
-    flex: 1;
-    border: solid black 2px;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-        padding: 10px;
-    margin: 10px;
-}
-.box2 {
-    flex: 1;
-    border: solid black 2px;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-    padding: 10px;
-    margin: 10px;
-}
-.box3 {
+/*Kind-Element von flex-container, stellen je eine Spalte in der Ansicht da */
+.box {
     flex: 1;
     border: solid black 2px;
     background:
@@ -68,12 +55,22 @@ table {
     margin: 10px;
 }
 
+.box1 {
+    flex: 1;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+        padding: 10px;
+    margin: 10px;
+}
+
+/*Parent-Element zu box1, box2 und box3, bei einer Minimalbreite von 1000px wird der Flexcontainer aktiviert und die zwei/drei Spalten werden in einer Spalte dargestellt */
 @media (min-width:1000px) {
     .flex-container {
         display: flex;
     }
 }
 
+/*stellt den Text der Class zentriert da*/
 .central{
     text-align: center;
 }

@@ -30,12 +30,17 @@
         <main>
             <h1>Impressum</h1>
             <figure class="central">
-                <img src="../Bilder/TH_Koeln_Logo.svg.png">
-                <br>
+                <img id="img1" src="../Bilder/TH_Koeln_Logo.svg.png">
+                <figcaption>
+                    <button onclick="show_hide('img1')">
+                        Hide and Show
+                    </button>
+                    <script src="../javascript/show_and_hide.js"></script>
+                </figcaption>
             </figure>
 
             <div class="flex-container">
-                <div class="box1">
+                <div class="box">
                     <div class="central">
                         <p><strong>Adresse:</strong></p>
                         TH Köln <br>
@@ -44,7 +49,7 @@
                     </div>
                 </div>
 
-                <div class="box2">
+                <div class="box">
                     <div class="central">
                         <p><strong>Postanschrift:</strong></p>
                         Gustav-Heinemann-Ufer 54 <br>
@@ -52,12 +57,13 @@
                     </div>
                 </div>
 
-                <div class="box3">
+                <div class="box">
                     <div class="central">
                         <p><Strong>Mitwirkende</Strong></p>
-                    Cristina Riffarth: <i>11147753</i><br>
-                    Marc Biehl: <i>11148555</i><br>
-                    Jannick Kracht: <i>11147753</i> <br></div>
+                        Cristina Riffarth: <i>11147753</i><br>
+                        Marc Biehl: <i>11148555</i><br>
+                        Jannick Kracht: <i>11147753</i> <br>
+                    </div>
                 </div>
                 <br><br>
             </div>

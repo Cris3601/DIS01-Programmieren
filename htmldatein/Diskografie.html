@@ -28,7 +28,7 @@
     <br>
     <h1>Falco Diskografie</h1>
     <main class="flex-container">
-        <div class="box1">
+        <div class="box">
 
             <h2>Diese Diskografie ist eine Übersicht über die musikalischen Werke des österreichischen Musikers Falco.</h2>
             Den Schallplattenauszeichnungen zufolge hat er in seiner Karriere über 8,9 Millionen Tonträger verkauft, darunter 600.000 in Österreich, 3,975 Millionen in Deutschland und 105.000 in der Schweiz.
@@ -43,17 +43,23 @@
             2004 wurde zur österreichischen Vorentscheidung zum Eurovision Song Contest der von Falco geschriebene, aber bis dahin unveröffentlichte Titel Sexuality, gesungen von André Leherb, eingereicht.
             Er belegte den neunten und damit vorletzten Platz.
 
-            <div class="Bild1">
-                <figure>
-                    <img src="../Bilder/falco-am-singen.jpg">
-                    <figcaption>Falco am singen</figcaption>
+            <div class="img1">
+                <figure class="central">
+                    <img id="img1" src="../Bilder/falco-am-singen.jpg">
+                    <figcaption>
+                        <button onclick="show_hide('img1')">
+                            Hide and Show
+                        </button>
+                        <script src="../javascript/show_and_hide.js"></script>
+                    </figcaption>
                 </figure>
+
             </div>
         </div>
 
 
 
-        <div class="box2">
+        <div class="box">
 
             <h2>Aufzählung</h2>
             <ol>
@@ -83,7 +89,7 @@
         </div>
 
     </main>
-    
+
     <footer>
 
         <small> <strong>Hier geht es zu weiteren Quellen intern und extern:</strong>
@@ -101,6 +107,4 @@
         </small>
 
     </footer>
-</body>
-
-</html>
+</body></html>
