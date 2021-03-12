@@ -1,6 +1,7 @@
 body {
     /*Das ist unser Google-Font den wir benutzen*/
-    font-family: 'Source Sans Pro', sans-serif;
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+    font-family: 'Cormorant Unicase', serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
