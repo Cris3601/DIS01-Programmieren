@@ -6,7 +6,7 @@ body {
 }
 
 /*Einzelfelder der Navigationsleiste*/
-/*
+
 nav ul li {
     flex: 1;
     border: solid black 2px;
@@ -15,7 +15,7 @@ nav ul li {
     list-style: none;
     text-align: center;
 }
-*/
+
 /*Flexcontainer für die Navigation*/
 @media (min-width:1000px) {
     nav ul {
