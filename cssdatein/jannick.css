@@ -5,13 +5,6 @@ body {
     line-height: normal;
 }
 
-/*Flexcontainer für die Navigation*/
-@media (min-width:1000px) {
-    nav ul {
-        display: flex;
-    }
-}
-
 /*Einzelfelder der Navigationsleiste*/
 nav ul li {
     flex: 1;
@@ -20,6 +13,13 @@ nav ul li {
     background-color: gainsboro;
     list-style: none;
     text-align: center;
+}
+
+/*Flexcontainer für die Navigation*/
+@media (min-width:1000px) {
+    nav ul {
+        display: flex;
+    }
 }
 
 /*Färbt das Listenelement, das mit der Maus berührt wird*/
@@ -45,13 +45,11 @@ h2 {
     width: 250px;
 }
 
-/*Parent-Element zu box1 und box2, bei einer Minimalbreite von 1000px wird der Flexcontainer aktiviert und die zwei Spalten werden in einer Spalte dargestellt */
-@media (min-width:1000px) {
-    .flex-container {
-        display: flex;
+@media (max-width:1000px){
+    .img1{
+        width:100%;
     }
 }
-
 /*Kind-Element von flex-container, stellen je eine Spalte in der Ansicht da */
 .box1 {
     flex: 1;
@@ -71,6 +69,12 @@ h2 {
     margin: 10px;
 }
 
+/*Parent-Element zu box1 und box2, bei einer Minimalbreite von 1000px wird der Flexcontainer aktiviert und die zwei Spalten werden in einer Spalte dargestellt */
+@media (min-width:1000px) {
+    .flex-container {
+        display: flex;
+    }
+}
 
 /*stellt den Text der Class zentriert da*/
 .central {
