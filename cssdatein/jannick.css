@@ -1,7 +1,7 @@
 /*Jannick Kracht CSS-Code*/
 /*Einzelfelder der Navigationsleiste*/
 
-nav ul li {
+/*nav ul li {
     flex: 1;
     border: solid black 2px;
     padding: 5px;
@@ -11,11 +11,11 @@ nav ul li {
 }
 
 /*Flexcontainer für die Navigation*/
-@media (min-width:1000px) {
+/*@media (min-width:1000px) {
     nav ul {
         display: flex;
     }
-}
+}*/
 
 /*Anpassen der Überschrift, um den Größenunterschied zwischen Überschrift und Text etwas anzupassen*/
 h2 {
@@ -44,7 +44,7 @@ h2 {
 }
 
 /*Kind-Element von flex-container, stellen je eine Spalte in der Ansicht da */
-.box1 {
+/*.box1 {
     flex: 1;
     background:
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
@@ -60,19 +60,19 @@ h2 {
     border: solid black 1px;
     padding: 10px;
     margin: 10px;
-}
+}*/
 
 /*Parent-Element zu box1 und box2, bei einer Minimalbreite von 1000px wird der Flexcontainer aktiviert und die zwei Spalten werden in einer Spalte dargestellt */
-@media (min-width:1000px) {
+/*@media (min-width:1000px) {
     .flex-container {
         display: flex;
     }
 }
 
 /*stellt den Text der Class zentriert da*/
-.central {
+/*.central {
     text-align: center;
-}
+}*/
 
 @media(max-width:1000px) {
     button {
