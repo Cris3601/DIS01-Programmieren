@@ -38,11 +38,11 @@
     <h1>Falcoblog- Alles über Falco</h1>
 
     <!--Container für die flexboxen-->
-    <main class="flexcontainer2">
-        <div class="flexbox1">
+    <main class="flex-container">
+        <div class="box">
             <article>
                 <h2>Falco auf einen Blick</h2>
-                <p class="block1">Falco wurde am <strong>19. Februar 1957</strong> in Wien mit dem bürgerlichen Namen Johann Hölzel geboren und verstarb am <strong>06. Februar 1998</strong> in der Nähe von Monte Llano auf der Dominikanischen Republik.
+                <p>Falco wurde am <strong>19. Februar 1957</strong> in Wien mit dem bürgerlichen Namen Johann Hölzel geboren und verstarb am <strong>06. Februar 1998</strong> in der Nähe von Monte Llano auf der Dominikanischen Republik.
                     Zu seinem Künstlernamen entschied sich Falco während der Vierschanzentournee am <strong>07. Januar 1977</strong>. Während er das Neujahrsspringer im Fernsehen verfolgte beeindruckte ihn der Skispringer Falko Weißpflog und er entschied sich, den Vornamen dieses Sportler etwas umgewandelt als seinen Künstlernamen zu nehmen.
                     Falco wurde am <strong>19. Februar 1957</strong> in Wien mit dem bürgerlichen Namen Johann Hölzel geboren und verstarb am <strong>06. Februar 1998 </strong>in der Nähe von Monte Llano auf der <em>Dominikanischen Republik</em>.
                     Zu seinem Künstlernamen entschied sich Falco während der Vierschanzentournee am <strong>07. Januar 1977</strong>. Während er das Neujahrsspringer im Fernsehen verfolgte beeindruckte ihn der
@@ -50,19 +50,26 @@
                 </p>
                 <p> Zu seinem Künstlernamen entschied sich Falco während der Vierschanzentournee am <strong>07. Januar 1977</strong>. Während er das Neujahrsspringer im Fernsehen verfolgte beeindruckte ihn der <em>Skispringer Falko Weißpflog</em> und er entschied sich, den Vornamen dieses Sportler etwas umgewandelt als seinen Künstlernamen zu nehmen.
                     Falco wurde am <strong>19. Februar 1957</strong> in Wien mit dem bürgerlichen Namen Johann Hölzel geboren und verstarb am 06. Februar 1998 in der Nähe von Monte Llano auf der Dominikanischen Republik.</p>
-                <p class="block3">Mehr zu Falcos beginnen finden sie hier: <a href="../htmldatein/biografie.html">Biografie</a></p>
+                <p class="block1">Mehr zu Falcos beginnen finden sie hier: <a href="../htmldatein/biografie.html">Biografie</a></p>
             </article>
         </div>
 
-        <div class="flexbox2">
+        <div class="box">
             <article>
                 <p> <strong>1977</strong> trat Falco dem ersten Wiener Musiktheater bei und wurde so zum ersten man in der Öffentlichkeit tätig.
                     Bis zum Jahre <strong>1980</strong> arbeitet Falco mit verschiedenen Musikgruppen zusammen, jedoch seinen ersten Erfolgt erzielte er <strong>1981</strong> nachdem er sich entschieden hatte, als Solokünstler zu arbeiten.</p>
                 <!--Bild verlinkung-->
-                <figure class="largeImage">
-                    <img class="bildstart" src="../Bilder/FalcoStartseite.jpg" alt="Falco">
+                <figure class="rightfigure">
+                    <img id="bildstart" src="../Bilder/FalcoStartseite.jpg" alt="Falco"><figcaption>
+                    <button onclick="show_hide('bildstart')">
+                                Hide and Show
+                            </button>
+                            <script src="../javascript/show_and_hide.js"></script>
+                    
+                    
+                    </figcaption>
                 </figure>
-                <p class="block1">Seine erste Single Der Kommissar erzielte europaweit Erfolge und sogar in Kanada und den USA wurde der österreichischen Popsong bekannt. Insgesamt wurde die Single weltweit über 7 Millionen mal verkauft.
+                <p>Seine erste Single Der Kommissar erzielte europaweit Erfolge und sogar in Kanada und den USA wurde der österreichischen Popsong bekannt. Insgesamt wurde die Single weltweit über 7 Millionen mal verkauft.
 
                 <p>Februar <strong>1998</strong> in der Nähe von Monte Llano auf der Dominikanischen Republik.
                     Zu seinem Künstlernamen entschied sich Falco während der Vierschanzentournee am <strong>07. Januar 1977</strong>.<em> Während er das Neujahrsspringer im Fernsehen verfolgte </em>beeindruckte ihn der Skispringer Falko Weißpflog und er entschied sich, den Vornamen dieses Sportler etwas umgewandelt als seinen Künstlernamen zu nehmen.</p>
@@ -74,7 +81,7 @@
                 <p class="block2">
                     Nachdem sein zweites Album nicht an die Erfolge des ersten heranreichen konnte, wurde <strong>1985</strong> das dritte Album veröffentlicht.</p>
                 <p> Mit diesem Album und der Hitsingle Rock me Amadeus gelang <strong>1986</strong> der internationale Durchbruch. Falco gelang es als erster deutschsprachiger Sänger Platz 1 der US Billboard Charts zu erreichen und hielt diese Position drei Wochen lang.</p>
-                <p class="block4"><em> Mehr zu Falcos beliebtesten Songs finden sie hier: <a href="../htmldatein/beliebtestesongs.html">Top-10</a></em></p>
+                <p class="block1"><em> Mehr zu Falcos beliebtesten Songs finden sie hier: <a href="../htmldatein/beliebtestesongs.html">Top-10</a></em></p>
             </article>
         </div>
     </main>

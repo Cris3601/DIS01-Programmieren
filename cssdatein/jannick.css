@@ -1,9 +1,4 @@
 /*Jannick Kracht CSS-Code*/
-/*positioniert das Bild rechts im Container und schreibt den Titel vom Bild zentriert darunter*/
-.rightfigure {
-    float: right;
-    text-align: center;
-}
 
 /*IDs für die show_hide()-Funktion*/
 #img1,

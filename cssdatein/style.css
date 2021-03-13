@@ -67,6 +67,15 @@ table {
     margin: 10px;
 }
 
+.box2 {
+     flex: 3;
+    border: solid black 1px;
+    margin: 10px;
+    padding: 10px;
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
 /*Parent-Element zu box1, box2 und box3, bei einer Minimalbreite von 1000px wird der Flexcontainer aktiviert und die zwei/drei Spalten werden in einer Spalte dargestellt */
 @media (min-width:1000px) {
     .flex-container {
@@ -76,5 +85,13 @@ table {
 
 /*stellt den Text der Class zentriert da*/
 .central{
+    text-align: center;
+}
+ol{
+    line-height: 2;
+}
+/*positioniert das Bild rechts im Container und schreibt den Titel vom Bild zentriert darunter*/
+.rightfigure {
+    float: right;
     text-align: center;
 }

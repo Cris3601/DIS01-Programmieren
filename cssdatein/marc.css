@@ -1,5 +1,5 @@
 /*Einstellungen der Positionen der Bilder sowie deren Bildgröße*/
-.bildstart {
+#bildstart {
     width: 300px;
     height: 110px;
     float: right;
@@ -7,7 +7,7 @@
     border-radius: 10px;
 }
 
-.bildbio {
+#bildbio {
     height: 200px;
     width: 200px;
     float: right;
@@ -16,7 +16,7 @@
     margin: 5px;
 }
 
-.bildsong {
+#bildsong {
     float: right;
     width: 300px;
     height: 200px;
@@ -24,31 +24,7 @@
     border-radius: 10px;
 }
 
-/* Parentelement Flexcontainer , Display Flex propertie ermöglicht Positionierung der Blöcke*/
-@media (min-width:1000px) {
-    .flexcontainer2 {
-        display: flex;
-    }
-}
-
-.flexbox1 {
-    flex: 1;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-    border: solid black 1px;
-    margin: 10px;
-}
-
-/* Hintergrundfarbe für das Article Element auf der Startseite. background lässt den Hintergrund mit css designen, linear gradient heißt farben sollen verlaufen, dann werden zwei farben eingetragen und zu wie viel % sie teil des Farbverlaufes sein sollen. */
-.flexbox2 {
-    flex: 1;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-    border: solid black 1px;
-    margin: 10px;
-}
-
-.block3 {
+.block1 {
     /* Dicke der Schrift*/
     font-weight: 600;
 }
@@ -58,70 +34,4 @@
     color: darkred;
 }
 
-.block4 {
-    font-weight: 600;
-}
 
-/*Der Media Befehl sagt aus, dass bei einem Bildschrim kleiner als 1000px die Flexboxen gewrapt werden sollen damit diese wieder vollständing zusehen sind*/
-@media (min-width:1000px) {
-    .flexcontainerbio {
-        display: flex;
-    }
-}
-
-/*einzelne Flexboxen mit ihrem jeweiligen Styling*/
-.flexboxbio1 {
-    flex: 3;
-    border: solid black 1px;
-    margin: 10px;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}
-
-.flexboxbio2 {
-    flex: 1;
-    border: solid black 1px;
-    margin: 10px;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-
-}
-
-.flexboxbio3 {
-    border: solid black 1px;
-    margin: 10px;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}
-
-@media (min-width:1000px) {
-    .flexcontainerbeliebt {
-        display: flex;
-    }
-}
-
-.flexboxbeliebt1 {
-    border: solid black 1px;
-    margin: 10px;
-    padding: 10px;
-    font-weight: 400;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-    line-height: 2;
-}
-
-.flexboxbeliebt2 {
-    border: solid black 1px;
-    margin: 10px;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}
-
-.flexboxbeliebt3 {
-    font-size: 20px;
-    border: solid black 1px;
-    margin: 10px;
-    text-align: center;
-    background:
-        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
-}

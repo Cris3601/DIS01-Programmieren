@@ -25,7 +25,7 @@
             <li><a href="Privatleben.html">Privatleben</a></li>
             <li><a href="Ehrungen.html">Ehrungen</a></li>
             <li><a href="Musikstil.html">Musikstil</a></li>
-            <li><a href="impressum.html">Impressum</a></li>>
+            <li><a href="impressum.html">Impressum</a></li>
         </ul>
     </nav>
     <br>
@@ -35,9 +35,9 @@
         <!-- Mit der article id lassen sich später die einzelnen Artikel wieder finden und stylen-->
         <article>
             <!-- Container der FLexbox für das spätere stylen. Mit den boxen flexbox 1-2 für die jeweiligen texte-->
-            <div class="flexcontainerbio">
+            <div class="flex-container">
 
-                <div class="flexboxbio1">
+                <div class="box2">
                     <h2>Herkunft und Kindheit</h2>
 
                     <p>Johann Hölzel kam am <strong>19. Februar 1957</strong> als Sohn von Maria (geb. Saurer) und Alois Hölzel in Wien zur Welt.</p>
@@ -49,9 +49,14 @@
                         <strong>1959</strong> übernahm sie ein Lebensmittelgeschäft in der Ziegelofengasse, um das Einkommen der Familie aufzubessern.
                     </p>
 
-                    <figure class="largeImage">
+                    <figure class="rightfigure">
                         <!--Verlinkung der Bildquellle-->
-                        <img class="bildbio" src="../Bilder/FalcoBiografie.jpg" alt="Falco">
+                        <img id="bildbio" src="../Bilder/FalcoBiografie.jpg" alt="Falco"><figcaption>
+                         <button onclick="show_hide('bildbio')">
+                                Hide and Show
+                            </button>
+                            <script src="../javascript/show_and_hide.js"></script>
+                        </figcaption>
                     </figure>
 
                     <p> <strong>1963</strong> wurde Hölzel in die römisch-katholische Privatschule der Piaristen eingeschult.</p>
@@ -78,7 +83,7 @@
                     <p>
                         Anschließend schrieb er sich zunächst am Wiener Musikkonservatorium ein, brach das Studium aber nach einem Semester ab, um <q>ein richtiger Musiker</q> zu werden.</p>
                 </div>
-                <div class="flexboxbio2">
+                <div class="box">
 
                     <h2>Jugend und Ausbildung</h2>
 
@@ -92,7 +97,7 @@
                     Finden sie hier <a href="../htmldatein/index.html">Falco Steckbrief</a>
                 </div>
             </div>
-            <div class="flexboxbio3">
+            <div class="box">
                 <br>
                 <h3> Daten zur Musikalischen Laufbahn</h3>
                 <!--Eine Tabelle wobei die erste Eingabe die Beschriftung der Zeilen sind,mit den jeweiligen Information in einem Block geschrieben. <tr> zeigt die neue zeile an in die man dann die Blöcke einfügen kann. Mit <td> werden die einzelden Einträge in eine Reihenfolge gebracht und eingefügt-->

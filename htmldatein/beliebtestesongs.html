@@ -29,8 +29,8 @@
     </nav>
     <br>
     <h1> Falcos-Hits</h1>
-    <main class="flexcontainerbeliebt">
-        <div class="flexboxbeliebt1">
+    <main class="flex-container">
+        <div class="box">
 
             <h2>Hier finden sie Flacos Top 10 Songs in einer Aufzählung:</h2>
 
@@ -50,7 +50,7 @@
             </ol>
         </div>
         <br>
-        <div class="flexboxbeliebt2">
+        <div class="box2">
             <article id="BesteSongs">
                 <h3>Falco das Genie</h3>
                 <p>
@@ -59,7 +59,12 @@
                 <p>
                     In seiner musikalischen Laufbahn wechselte Falco mehrmals den
                     <a href="../htmldatein/Musikstil.html">Musikstil</a>.
-                <figure class="falcobeliebt"> <img class="bildsong" src="../Bilder/FalcoBesteSongs.jpg" alt="Falco">
+                <figure class="rightfigure"> <img id="bildsong" src="../Bilder/FalcoBesteSongs.jpg" alt="Falco"><figcaption>
+                         <button onclick="show_hide('bildsong')">
+                                Hide and Show
+                            </button>
+                            <script src="../javascript/show_and_hide.js"></script>
+                        </figcaption>
                 </figure>
                 Kurz vor der Veröffentlichung seines vorletzten Albums, <strong>Nachtflug, meinte Falco</strong> dazu:</p>
                 <p>
@@ -77,9 +82,9 @@
             </article>
         </div>
     </main>
-    <div class="flexboxbeliebt3">
-        <h5>Mehr von Falco?</h5>
-        Informationen aus seinem <a href="../htmldatein/Privatleben.html">Privatleben:</a>
+    <div class="box">
+        <h5 class="central">Mehr von Falco?</h5>
+        <p class="central">Informationen aus seinem <a href="../htmldatein/Privatleben.html">Privatleben:</a></p>
     </div>
 
     <hr>
