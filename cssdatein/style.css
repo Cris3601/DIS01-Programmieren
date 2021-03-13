@@ -95,3 +95,46 @@ ol{
     float: right;
     text-align: center;
 }
+/*Anpassung der Buttongröße an einen kleineren Bildschirm*/
+@media(max-width:1000px) {
+    button {
+        width: 50%;
+        font-size: 20px;
+    }
+}
+
+/*Einstellungen der Positionen der Bilder sowie deren Bildgröße*/
+#bildstart {
+    width: 300px;
+    height: 110px;
+    float: right;
+    border: solid black 5px;
+    border-radius: 10px;
+}
+
+#bildbio {
+    height: 200px;
+    width: 200px;
+    float: right;
+    border: solid black 5px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#bildsong {
+    float: right;
+    width: 300px;
+    height: 200px;
+    border: solid black 5px;
+    border-radius: 10px;
+}
+
+.block1 {
+    /* Dicke der Schrift*/
+    font-weight: 600;
+}
+
+.block2 {
+    /*Hintergrundfarbe und Zeilenabstand*/
+    color: darkred;
+}
