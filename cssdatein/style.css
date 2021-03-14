@@ -1,3 +1,6 @@
+<script src="../javascript/show_and_hide.js"></script>
+
+
 /*Zeilenabstand wird vergrößert*/
 body{
     line-height: 1.1;
@@ -28,7 +31,7 @@ nav ul li {
     list-style: none;
     text-align: center;
 }
-
+/*Display Properties der nav Elemente*/
 @media (min-width:1000px) {
     nav ul {
         display: flex;
@@ -70,7 +73,7 @@ table {
 
 .box2 {
      flex: 3;
-    border: solid black 1px;
+    border: solid black 2px;
     margin: 10px;
     padding: 10px;
     background:
@@ -88,6 +91,7 @@ table {
 .central{
     text-align: center;
 }
+
 ol{
     line-height: 2;
 }
@@ -96,6 +100,7 @@ ol{
     float: right;
     text-align: center;
 }
+
 /*Anpassung der Buttongröße an einen kleineren Bildschirm*/
 @media(max-width:1000px) {
     button {
@@ -108,26 +113,16 @@ ol{
 #bildstart {
     width: 300px;
     height: 110px;
-    float: right;
-    border: solid black 5px;
-    border-radius: 10px;
 }
 
 #bildbio {
     height: 200px;
     width: 200px;
-    float: right;
-    border: solid black 5px;
-    border-radius: 10px;
-    margin: 5px;
 }
 
 #bildsong {
-    float: right;
     width: 300px;
     height: 200px;
-    border: solid black 5px;
-    border-radius: 10px;
 }
 
 .block1 {
@@ -138,4 +133,27 @@ ol{
 .block2 {
     /*Hintergrundfarbe und Zeilenabstand*/
     color: darkred;
+}
+
+/*IDs für die show_hide()-Funktion*/
+#img1,
+#img2 {
+    width: 250px;
+}
+
+/*Anpassung der Bildergröße an einen kleineren Bildschirm*/
+@media (max-width:1000px) {
+    #img1,
+    #img2,
+    #bildstart,
+    #bildbio,
+    #bildsong{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@font-face{
+font-family: 'Cormorant Unicase', serif;
+    src: local()
 }
