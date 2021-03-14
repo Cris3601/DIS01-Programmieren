@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 <script src="../javascript/show_and_hide.js"></script>
 
-=======
+
 /*Zeilenabstand wird vergrößert*/
->>>>>>> 03d7b75f313334a693037bc07192614b0e5d2136
 body{
     line-height: 1.1;
 }
@@ -75,7 +73,7 @@ table {
 
 .box2 {
      flex: 3;
-    border: solid black 1px;
+    border: solid black 2px;
     margin: 10px;
     padding: 10px;
     background:
@@ -93,6 +91,7 @@ table {
 .central{
     text-align: center;
 }
+
 ol{
     line-height: 2;
 }
@@ -101,6 +100,7 @@ ol{
     float: right;
     text-align: center;
 }
+
 /*Anpassung der Buttongröße an einen kleineren Bildschirm*/
 @media(max-width:1000px) {
     button {
@@ -113,26 +113,16 @@ ol{
 #bildstart {
     width: 300px;
     height: 110px;
-    float: right;
-    border: solid black 5px;
-    border-radius: 10px;
 }
 
 #bildbio {
     height: 200px;
     width: 200px;
-    float: right;
-    border: solid black 5px;
-    border-radius: 10px;
-    margin: 5px;
 }
 
 #bildsong {
-    float: right;
     width: 300px;
     height: 200px;
-    border: solid black 5px;
-    border-radius: 10px;
 }
 
 .block1 {
@@ -154,9 +144,16 @@ ol{
 /*Anpassung der Bildergröße an einen kleineren Bildschirm*/
 @media (max-width:1000px) {
     #img1,
-    #img2 {
+    #img2,
+    #bildstart,
+    #bildbio,
+    #bildsong{
         width: 100%;
+        height: auto;
     }
 }
 
-
+@font-face{
+font-family: 'Cormorant Unicase', serif;
+    src: local()
+}
