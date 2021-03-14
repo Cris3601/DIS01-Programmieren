@@ -1,3 +1,5 @@
+<script src="../javascript/show_and_hide.js"></script>
+
 body{
     line-height: 1.1;
 }
@@ -138,3 +140,19 @@ ol{
     /*Hintergrundfarbe und Zeilenabstand*/
     color: darkred;
 }
+
+/*IDs für die show_hide()-Funktion*/
+#img1,
+#img2 {
+    width: 250px;
+}
+
+/*Anpassung der Bildergröße an einen kleineren Bildschirm*/
+@media (max-width:1000px) {
+    #img1,
+    #img2 {
+        width: 100%;
+    }
+}
+
+
