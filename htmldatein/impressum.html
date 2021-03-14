@@ -2,91 +2,82 @@
 <html>
 
 <head>
+    <!--Marc Maurice Biehl 11148555-->
+    <!--Jannick Kracht 11147753-->
+    <!--Cristina Riffarth 11147765-->
     <meta charset="UTF-8">
     <title>Impressum</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap" rel="stylesheet">-->
     <link href="../cssdatein/style.css" rel="stylesheet">
-    <link href="../cssdatein/cristina.css" rel="stylesheet">
-     <script src="../javascript/show_and_hide.js"></script>
+    <link href="../cssdatein/font.css" rel="stylesheet">
+    <script src="../javascript/show_and_hide.js"></script>
 </head>
-    <!--Marc Maurice Biehl 11148555-->
-    <!--Jannick Kracht 11147753-->  
-    <!--Cristina Riffarth 11147765-->
-<nav id="navigation">
-    <ul class="horizontal">
-        <li><a href="index.html">Startseite</a></li>
-        <li><a href="biografie.html">Biografie</a></li>
-        <li><a href="beliebtestesongs.html">Topsongs</a></li>
-        <li><a href="interview.html">Interview</a></li>
-        <li><a href="Diskografie.html">Diskografie</a></li>
-        <li><a href="Privatleben.html">Privatleben</a></li>
-        <li><a href="Ehrungen.html">Ehrungen</a></li>
-        <li><a href="Musikstil.html">Musikstil</a></li>
-        <li><a href="impressum.html">Impressum</a></li>
-    </ul>
-</nav>
 
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Startseite</a></li>
+            <li><a href="biografie.html">Biografie</a></li>
+            <li><a href="beliebtestesongs.html">Topsongs</a></li>
+            <li><a href="interview.html">Interview</a></li>
+            <li><a href="Diskografie.html">Diskografie</a></li>
+            <li><a href="Privatleben.html">Privatleben</a></li>
+            <li><a href="Ehrungen.html">Ehrungen</a></li>
+            <li><a href="Musikstil.html">Musikstil</a></li>
+            <li><a href="impressum.html">Impressum</a></li>
+        </ul>
+    </nav>
     <article>
-        <main>
-            <h1>Impressum</h1>
-            <figure class="central">
-                <img id="img1" src="../Bilder/TH_Koeln_Logo.svg.png">
-                <figcaption>
-                    <button onclick="show_hide('img1')">
-                        Hide and Show
-                    </button>
-                   
-                </figcaption>
-            </figure>
-
-            <div class="flex-container">
-                <div class="box">
-                    <div class="central">
-                        <p><strong>Adresse:</strong></p>
-                        TH Köln <br>
-                        Claudiusstr. 1<br>
-                        50678
-                    </div>
+        <h1>Impressum</h1>
+        <figure class="central">
+            <img id="img3" src="../Bilder/TH_Koeln_Logo.svg.png">
+            <figcaption>
+                <button onclick="show_hide('img3')">
+                    Hide and Show
+                </button>
+            </figcaption>
+        </figure>
+        <main class="flex-container">
+            <div class="box">
+                <div class="central">
+                    <h2>Adresse:</h2>
+                    TH Köln <br>
+                    Claudiusstr. 1<br>
+                    50678 Köln
                 </div>
-
-                <div class="box">
-                    <div class="central">
-                        <p><strong>Postanschrift:</strong></p>
-                        Gustav-Heinemann-Ufer 54 <br>
-                        50968 Köln
-                    </div>
-                </div>
-
-                <div class="box">
-                    <div class="central">
-                        <p><Strong>Mitwirkende</Strong></p>
-                        Cristina Riffarth: <i>11147753</i><br>
-                        Marc Biehl: <i>11148555</i><br>
-                        Jannick Kracht: <i>11147753</i> <br>
-                    </div>
-                </div>
-                <br><br>
             </div>
-            <hr>
-            <footer>
-                <small>
-
-
-                    <h4> geht es zu weiteren Quellen intern und extern:</h4>
-                    <p> <a href="https://www.th-koeln.de/">Website der TH Köln</a></p>
-                    <a href="https://de.wikipedia.org/wiki/Falco">Originalbeitrag Falco</a>
-                    <p><Strong>Intern:</Strong></p>
-                    <p><a href="index.html">Startseite</a></p>
-                    <p><a href="Privatleben.html">Privatleben</a></p>
-
-
-
-
-
-                </small>
-            </footer>
+            <div class="box">
+                <div class="central">
+                    <h2>Postanschrift:</h2>
+                    Gustav-Heinemann-Ufer 54 <br>
+                    50968 Köln
+                </div>
+            </div>
+            <div class="box">
+                <div class="central">
+                    <h2>Mitwirkende:</h2>
+                    Cristina Riffarth: <i>11147753</i><br>
+                    Marc Biehl: <i>11148555</i><br>
+                    Jannick Kracht: <i>11147753</i>
+                </div>
+            </div>
         </main>
+        <div class="box">
+            <p>
+                Hier finden sie alle formalen Daten zu den Mitwirkenden sowie den Standort. Für einen Überblick gehen sie zur <a href="index.html">Startseite</a>. Mehr Informationen zu Falcos Leben finden sie hier:<a href="Privatleben.html"> Privatleben</a>. Für Hilfestellungen oder Fehlermeldungen, sowie Problemen kontaktieren sie bitte unseren Support. Diese Website wurde im Rahmen des Moduls <em><strong>DIS01 Programmieren und Webentwicklung</strong></em> erstellt.
+            </p>
+        </div>
+        <hr>
+        <footer>
+            <small>
+                <em>
+                    Die Quelle des Bildes finden sie hier:
+                </em>
+                <a href="https://www.th-koeln.de/">Zur Originalquelle:</a>
+            </small>
+        </footer>
     </article>
-</body></html>
+</body>
+
+</html>

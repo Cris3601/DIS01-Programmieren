@@ -6,6 +6,11 @@ body{
     line-height: 1.1;
 }
 
+span {
+    font-weight: 700;
+}
+
+
 /*Angepasste Überschrift + Google Fonds*/ 
 h1 {
     font-family: 'Cormorant Unicase', serif;
@@ -152,6 +157,30 @@ ol{
         height: auto;
     }
 }
+
+
+#img3 {
+    width: 250px;
+}
+
+/*IDs für die show_hide()-Funktion*/
+#img4,
+#img5,
+#img6{
+    width: 250px;
+    height: 250px;
+}
+
+/*Anpassung der Bildergröße an einen kleineren Bildschirm*/
+@media (max-width:1000px) {
+    #img4,
+    #img5,
+    #img6{
+        width: 100%;
+        height: auto;
+    }
+}
+
 
 @font-face{
 font-family: 'Cormorant Unicase', serif;
