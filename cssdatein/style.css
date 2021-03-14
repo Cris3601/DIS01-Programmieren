@@ -36,7 +36,7 @@ nav ul li {
     list-style: none;
     text-align: center;
 }
-
+/*Display Properties der nav Elemente*/
 @media (min-width:1000px) {
     nav ul {
         display: flex;
