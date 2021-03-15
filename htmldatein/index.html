@@ -1,18 +1,17 @@
 <!doctype html>
-<html lang=de>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="de">
 <head>
     <!--Marc Maurice Biehl 11148555-->
     <!--Jannick Kracht 11147753-->
     <!--Cristina Riffarth 11147765-->
     <!--Verlinkung der zwei Styledateien sowie dem Font aus Google-->
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Einführung zum Sänger</title>
     <!--<link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap" rel="stylesheet">-->
     <!--Verlinkung der CSS und JS Dateiein-->
-    <link href="../cssdatein/style.css" rel="stylesheet">
-    <link href="../cssdatein/font.css" rel="stylesheet">
+    <link href="../cssdatein/style.css" rel="stylesheet" />
+    <link href="../cssdatein/font.css" rel="stylesheet" />
     <script src="../javascript/show_and_hide.js"></script>
 </head>
 
@@ -35,11 +34,11 @@
         </ul>
     </nav>
     <br />
-    <article>
+    <main>
         <h1>Falcoblog- Alles über Falco</h1>
 
         <!--Container für die flexboxen-->
-        <main class="flex-container">
+       <article class="flex-container">
             <!--Flexbox-->
             <div class="box">
                 <h2>Falco auf einen Blick</h2>
@@ -67,7 +66,7 @@
                 <!--Bild verlinkung-->
                 <!--Button funktion und Zuweisung der Funktion, dem Bild-->
                 <figure class="rightfigure">
-                    <img id="bildstart" src="../Bilder/FalcoStartseite.jpg">
+                    <img id="bildstart" src="../Bilder/FalcoStartseite.jpg" alt="Falco im Anzug">
                     <figcaption>
                         <button onclick="show_hide('bildstart')">
                             Hide and Show
@@ -102,9 +101,10 @@
                     </em>
                 </p>
             </div>
+        </article>
         </main>
-        <hr>
-        <!--Fußzeile mit <hr> als Trennlinie und dem <small> element zur Text verkleinerung . Links zu den Quellen.-->
+        <hr />
+        <!--Fußzeile mit <hr /> als Trennlinie und dem <small> element zur Text verkleinerung . Links zu den Quellen.-->
         <footer>
             <small>
                 <em>
@@ -118,5 +118,4 @@
                 <a href="https://www.falco.at/">Zur Originalquelle:</a>
             </small>
         </footer>
-    </article>
 </body></html>

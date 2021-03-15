@@ -9,8 +9,8 @@
     <title>Interview mit Falco</title>
     <!--    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap" rel="stylesheet">-->
-    <link href="../cssdatein/style.css" rel="stylesheet">
-    <link href="../cssdatein/font.css" rel="stylesheet">
+    <link href="../cssdatein/style.css" rel="stylesheet" />
+    <link href="../cssdatein/font.css" rel="stylesheet" />
     <script src="../javascript/show_and_hide.js"></script>
 </head>
 
@@ -18,8 +18,8 @@
     <!--Inhaltsverzeichnis-->
     <!--Hier ist das rausspringen aus dem Ordner nicht mehr nötig da man sich bereits im htmldateien ordner befindet, ../ ist also nicht nötig-->
     <!-- das nav besteht aus einem umschließenden "nav" tag. Darin wird ein "ul" unorderd list element platziert da ist keine 1. 2. 3. auflistung haben möchte. Sonst wäre "ol" der richtige tag. Für die einzelnen Listen Items wird "li" benutzt welche verlinkt werden mit der jeweiligen html datei und einem schriftzug.-->
-    <nav id="navigation">
-        <ul class="horizontal">
+    <nav>
+        <ul>
             <li><a href="index.html">Startseite</a></li>
             <li><a href="biografie.html">Biografie</a></li>
             <li><a href="beliebtestesongs.html">Topsongs</a></li>
@@ -32,10 +32,10 @@
         </ul>
     </nav>
     <br />
-    <article>
+     <main>
         <h1>Interview</h1>
         <!--Flexcontainer-->
-        <main class="flex-container">
+            <article class="flex-container">
             <div class="box">
                 <h2>Falco erzählt: Teil 1</h2>
                 <p>
@@ -85,7 +85,7 @@
                 <p>
                     <span>Moderatorin:</span> Was machst du den ganzen Tag?
                 </p>
-
+<p>Mehr Informationen zu seinem Leben finden sie in der <a href="biografie.html">Biografie</a>.</p>
             </div>
             <div class="box">
                 <h2>Falco erzählt: Teil 2</h2>
@@ -136,8 +136,9 @@
                     Zug soll denn bei mir abfahren ich meine das ist ein Blödsinn den Zug gibt
                     es nicht.
                 </p>
+                <p>Privates von Falco finden sie hier <a href="Privatleben.html">Privatleben</a>.</p>
             </div>
-        </main>
+       </article>
 
         <h1>Einige Bilder</h1>
         <div class="box">
@@ -145,24 +146,24 @@
                 <div class="box1">
                          <!--Verlinkung der Bildquellle-->
                     <figure class="central">
-                        <img id="img4" src="../Bilder/Falcamanagerin.jpg">
+                        <img id="img4" src="../Bilder/Falcamanagerin.jpg" alt="Falco mit Managerin">
                     </figure>
                 </div>
                 <div class="box1">
                     <figure class="central">
-                        <img id="img5" src="../Bilder/255px-Wien_-_Falco-Graffiti_von_Lush_Sux.jfif">
+                        <img id="img5" src="../Bilder/255px-Wien_-_Falco-Graffiti_von_Lush_Sux.jfif" alt="Graffiti von Falco">
                     </figure>
                 </div>
 
                 <div class="box1">
                     <figure class="central">
-                        <img id="img6" src="../Bilder/330px-Rock_Me_Amadeus.png">
+                        <img id="img6" src="../Bilder/330px-Rock_Me_Amadeus.png" alt="Noten von Rock me Amadeus">
                     </figure>
                 </div>
             </div>
         </div>
-
-        <hr>
+</main>
+        <hr />
         <footer>
             <small>
                 <em>
@@ -187,8 +188,7 @@
 
             </small>
 
-        </footer>
-    </article>
+         </footer>
 </body>
 
 </html>

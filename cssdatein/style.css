@@ -1,6 +1,3 @@
-<script src="../javascript/show_and_hide.js"></script>
-
-
 /*Zeilenabstand wird vergrößert*/
 body{
     line-height: 1.1;
@@ -9,7 +6,11 @@ body{
 span {
     font-weight: 700;
 }
-
+/*--überschrift-anfang--*/
+@font-face{
+font-family: 'Cormorant Unicase', serif;
+    src: local()
+}
 
 /*Angepasste Überschrift + Google Fonds*/ 
 h1 {
@@ -26,7 +27,11 @@ h2 {
     font-size: 20px;
     font-weight: 700;
 }
+/*--überschrift-ende--*/
 
+
+
+/*--nav-anfang--*/
 /*Einzelfelder der Navigationsleiste*/
 nav ul li {
     flex: 1;
@@ -48,6 +53,13 @@ nav ul li:hover {
     background-color: aliceblue;
     color: red
 }
+/*--nav-ende--*/
+
+
+/*--tabellen und listen-anfang--*/
+ol{
+    line-height: 2;
+}
 
 /*Tabellen Style für Biografie*/
 table {
@@ -56,6 +68,16 @@ table {
     border-top: solid;
     border-bottom: solid;
     margin: 15px;
+}
+
+/*--tabellen und listen-ende--*/
+
+/*flexcontainer und kind-elemente-anfang--*/
+/*Parent-Element zu box1, box2 und box3, bei einer Minimalbreite von 1000px wird der Flexcontainer aktiviert und die zwei/drei Spalten werden in einer Spalte dargestellt */
+@media (min-width:1000px) {
+    .flex-container {
+        display: flex;
+    }
 }
 
 /*Kind-Element von flex-container, stellen je eine Spalte in der Ansicht da */
@@ -85,21 +107,30 @@ table {
         linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
 }
 
-/*Parent-Element zu box1, box2 und box3, bei einer Minimalbreite von 1000px wird der Flexcontainer aktiviert und die zwei/drei Spalten werden in einer Spalte dargestellt */
-@media (min-width:1000px) {
-    .flex-container {
-        display: flex;
-    }
-}
+/*flexcontainer und kind-elemente-ende--*/
+
+/*--textdesign und alignment-anfang--*/
+
 
 /*stellt den Text der Class zentriert da*/
 .central{
     text-align: center;
 }
 
-ol{
-    line-height: 2;
+.block1 {
+    /* Dicke der Schrift*/
+    font-weight: 600;
 }
+
+.block2 {
+    /*Hintergrundfarbe und Zeilenabstand*/
+    color: darkred;
+}
+
+
+/*--Bilddarstellung und Button-anfang--*/
+
+
 /*positioniert das Bild rechts im Container und schreibt den Titel vom Bild zentriert darunter*/
 .rightfigure {
     float: right;
@@ -130,15 +161,7 @@ ol{
     height: 200px;
 }
 
-.block1 {
-    /* Dicke der Schrift*/
-    font-weight: 600;
-}
 
-.block2 {
-    /*Hintergrundfarbe und Zeilenabstand*/
-    color: darkred;
-}
 
 /*IDs für die show_hide()-Funktion*/
 #img1,
@@ -158,12 +181,8 @@ ol{
     }
 }
 
-
-#img3 {
-    width: 250px;
-}
-
 /*Bilder der Interview Seite*/
+#img3,
 #img4,
 #img5,
 #img6{
@@ -179,8 +198,4 @@ ol{
 
     }
 }
-
-@font-face{
-font-family: 'Cormorant Unicase', serif;
-    src: local()
-}
+/*--Bilddarstellung und Button-ende--*/
