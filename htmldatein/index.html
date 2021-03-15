@@ -1,15 +1,13 @@
 <!doctype html>
 <html lang="de">
+
 <head>
     <!--Marc Maurice Biehl 11148555-->
     <!--Jannick Kracht 11147753-->
     <!--Cristina Riffarth 11147765-->
-    <!--Verlinkung der zwei Styledateien sowie dem Font aus Google-->
     <meta charset="UTF-8" />
     <title>Einführung zum Sänger</title>
-    <!--<link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap" rel="stylesheet">-->
-    <!--Verlinkung der CSS und JS Dateiein-->
+    <!--Verlinkung der Styledatei, des Fonts und des JavaScripts-->
     <link href="../cssdatein/style.css" rel="stylesheet" />
     <link href="../cssdatein/font.css" rel="stylesheet" />
     <script src="../javascript/show_and_hide.js"></script>
@@ -17,9 +15,7 @@
 
 <body>
 
-    <!--Inhaltsverzeichnis-->
-    <!--Hier ist das rausspringen aus dem Ordner nicht mehr nötig da man sich bereits im htmldateien ordner befindet, ../ ist also nicht nötig-->
-    <!-- das nav besteht aus einem umschließenden "nav" tag. Darin wird ein "ul" unorderd list element platziert da ist keine 1. 2. 3. auflistung haben möchte. Sonst wäre "ol" der richtige tag. Für die einzelnen Listen Items wird "li" benutzt welche verlinkt werden mit der jeweiligen html datei und einem schriftzug.-->
+    <!--horizontale Menüleiste-->
     <nav>
         <ul>
             <li><a href="index.html">Startseite</a></li>
@@ -37,8 +33,8 @@
     <main>
         <h1>Falcoblog- Alles über Falco</h1>
 
-        <!--Container für die flexboxen-->
-       <article class="flex-container">
+        <!--Flexcontainer-->
+        <article class="flex-container">
             <!--Flexbox-->
             <div class="box">
                 <h2>Falco auf einen Blick</h2>
@@ -53,18 +49,19 @@
                     Zu seinem Künstlernamen entschied sich Falco während der Vierschanzentournee am <strong>07. Januar 1977</strong>. Während er das Neujahrsspringer im Fernsehen verfolgte beeindruckte ihn der <em>Skispringer Falko Weißpflog</em> und er entschied sich, den Vornamen dieses Sportler etwas umgewandelt als seinen Künstlernamen zu nehmen.
                     Falco wurde am <strong>19. Februar 1957</strong> in Wien mit dem bürgerlichen Namen Johann Hölzel geboren und verstarb am <strong>06. Februar 1998</strong> in der Nähe von Monte Llano auf der Dominikanischen Republik.
                 </p>
+                <!--Interner Link-->
                 <p class="block1">
                     Mehr zu Falcos beginnen finden sie hier: <a href="../htmldatein/biografie.html">Biografie</a>
                 </p>
             </div>
+            <!--Flexbox-->
             <div class="box">
                 <h2>Falcos Leben nach 1977</h2>
                 <p>
                     <strong>1977</strong> trat Falco dem ersten Wiener Musiktheater bei und wurde so zum ersten man in der Öffentlichkeit tätig.
                     Bis zum Jahre <strong>1980</strong> arbeitet Falco mit verschiedenen Musikgruppen zusammen, jedoch seinen ersten Erfolgt erzielte er <strong>1981</strong> nachdem er sich entschieden hatte, als Solokünstler zu arbeiten.
                 </p>
-                <!--Bild verlinkung-->
-                <!--Button funktion und Zuweisung der Funktion, dem Bild-->
+                <!--Bild Verlinkung und show-hide, Button funktion-->
                 <figure class="rightfigure">
                     <img id="bildstart" src="../Bilder/FalcoStartseite.jpg" alt="Falco im Anzug">
                     <figcaption>
@@ -87,6 +84,7 @@
                 <p>
                     Zu seinem Künstlernamen entschied sich Falco während der Vierschanzentournee am <strong>07. Januar 1977</strong>. Während er das Neujahrsspringer im Fernsehen verfolgte beeindruckte ihn der
                 </p>
+                <!--Textdesign-->
                 <p class="block2">
                     Nachdem sein zweites Album nicht an die Erfolge des ersten heranreichen konnte, wurde <strong>1985</strong> das dritte Album veröffentlicht.
                 </p>
@@ -94,6 +92,7 @@
                 <p>
                     Mit diesem Album und der Hitsingle Rock me Amadeus gelang <strong>1986</strong> der internationale Durchbruch. Falco gelang es als erster deutschsprachiger Sänger Platz 1 der US Billboard Charts zu erreichen und hielt diese Position drei Wochen lang.
                 </p>
+                <!--Textdesign-->
                 <p class="block1">
                     <em>
                         Mehr zu Falcos beliebtesten Songs finden sie hier:
@@ -102,20 +101,22 @@
                 </p>
             </div>
         </article>
-        </main>
-        <hr />
-        <!--Fußzeile mit <hr /> als Trennlinie und dem <small> element zur Text verkleinerung . Links zu den Quellen.-->
-        <footer>
-            <small>
-                <em>
-                    Den Originaltext finden sie hier:
-                </em>
-                <a href="https://www.was-war-wann.de/musik/biografie/falco.html">Zur Originalquelle.</a>
-                <br />
-                <em>
-                    Die Quelle des Bildes finden sie hier:
-                </em>
-                <a href="https://www.falco.at/">Zur Originalquelle:</a>
-            </small>
-        </footer>
-</body></html>
+    </main>
+    <hr />
+    <!--Fußzeile mit Link zu den Originalquellen-->
+    <footer>
+        <small>
+            <em>
+                Den Originaltext finden sie hier:
+            </em>
+            <a href="https://www.was-war-wann.de/musik/biografie/falco.html">Zur Originalquelle.</a>
+            <br />
+            <em>
+                Die Quelle des Bildes finden sie hier:
+            </em>
+            <a href="https://www.falco.at/">Zur Originalquelle:</a>
+        </small>
+    </footer>
+</body>
+
+</html>
