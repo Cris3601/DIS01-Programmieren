@@ -1,0 +1,360 @@
+
+#navigation a:hover {
+    color: red
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    background-color: #D8D8DA;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+li {
+    /* linie rechts vom text als worttrenner macht das ganze übersichtlicher*/
+    padding-right: 2px;
+    border-right: solid black 2px;
+    line-height: 2
+}
+
+.int {
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    background-color: #D8D8DA;
+    list-style: none;
+}
+.bildstart {
+    width: 300px;
+    height: 110px;
+    float: right;
+}
+.bildbio {
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+.bildsong {
+    float: right;
+    width: 300px;
+    height: 200px;
+}
+@media (min-width:1000px){
+.flexcontainerbio {
+    /* Die Properties bedeuten, alles im FLex container wird als Flexbox definiert, Die Textblöcke sollen in Reihen dargestellt werden und bei Bildschrimverengung schmaler werdne und sich der Bildbreite anpassen*/
+    display: flex;
+    /*flex-direction: column;
+    flex-wrap:nowrap;*/
+    }}
+
+/*flexboxen welche die teilung in row ermöglichen, diese sind alle im flexcontainer*/
+.flexboxbio1 {
+    border: solid black 1px;
+    margin: 10px;
+   
+}
+/*@media(min-width 200px) {*/
+.flexboxbio2 {
+    border: solid black 1px;
+    margin: 10px;
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+    
+    
+}
+
+.flexboxbio3 {
+    border: solid black 1px;
+    margin: 10px;
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+
+/*stylen der bilder größe, damit diese auch auf Mobile zu sehen sind*/
+/*img {
+    float: right;
+    width: 250px;
+    margin: 10px;
+    margin-top: 50px;
+}*/
+/*footer{
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);*/
+
+/*Tabellen Style für Biografie*/
+table {
+    box-sizing: border-box;
+    padding: 5px;
+    border-top: solid;
+    border-bottom: solid;
+    margin: 15px;
+}
+.uberschrift {
+    border-right: solid black 2px;
+}
+
+body {
+    /*Das ist unser Google-Font den wir benutzen*/
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+.falcoleben {
+    text-align: center;
+}
+
+/*vielleicht kann mir hier einer helfen in der html datei beliebtesongs sollen die blöcke (flexbox) nebeneinander sein also column das tun sie aber nicht die sind immer row*/
+.flexcontainerbeliebt {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.flexboxbeliebt1 {
+    border: solid black 1px;
+    padding: 10px;
+    order: 1;
+    margin-bottom: 15px;
+    font-weight: 700;
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+
+}
+
+.flexboxbeliebt2 {
+    font-size: 18px;
+    border: solid black 1px;
+    padding: 10px;
+    order: 3;
+    text-align: center;
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   width: 300px;
+   height: 260px;
+
+
+}
+
+.flexboxbeliebt3 {
+    border: solid black 1px;
+    padding: 10px;
+    text-align: left;
+    order: 2;
+    margin-bottom: 15px;
+    background: 
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+}
+@media (min-width:700px){
+.flexcontainerstart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}}
+
+.flexboxstart1 {
+    border: solid black 1px;
+    margin-bottom: 30px;
+}
+
+.flexboxstart2 {
+    border: solid black 1px;
+
+}
+
+.block3 {
+    font-weight: 600;
+}
+
+
+.block2 {
+    /*Hintergrundfarbe und Zeilenabstand*/
+    color: darkred;
+}
+
+.block4 {
+    font-weight: 600;
+}
+
+/* Hintergrundfarbe für das Article Element auf der Startseite. background lässt den Hintergrund mit css designen, linear gradient heißt farben sollen verlaufen, 45deg steht für den Winkel der rotation, dann die beiden farben und die % sind dafür da zu bestimmen wie viel % des Bildschrimes eingenommen werden soll.*/
+#start1 {
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+
+}
+
+#start2 {
+    background:
+        linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+
+}
+
+.interview
+{
+    
+        display: flex;
+        justify-content: space-between;
+        border: solid black 2px;
+        background-color: #D8D8DA;
+        list-style: none;
+       
+}
+
+.diskografie {
+    display: flex;
+    justify-content: space-between;
+    border: solid black 2px;
+    background-color: #D8D8DA;
+    list-style: none;
+}
+
+.flexboxdiskografie2 {
+border: solid black 1px;
+display: flex;    
+flex-direction: row;
+flex-wrap: wrap;
+margin: 10px;
+background: linear-gradient(#E0FFFF 50%, #F5FFFA 73%);;
+    }
+
+.flexboxdiskografie {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-align: left;
+    border: solid black 2px;
+    margin: 10px;
+    background:
+    linear-gradient(#E0FFFF 50%, #F5FFFA 73%); 
+   
+/* Bildaglerie anfang*/
+
+.bilfgal1{
+   text-align: left;
+   border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   padding: 10px;
+}
+
+.bildgal2{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
+}
+
+.bildgal3{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
+}
+
+.bildgal4{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
+}
+
+.bildgal5{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
+}
+
+.bildgal6{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
+}
+
+.bildgal7{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
+}
+
+
+
+
+.bildgal8{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
+}
+
+
+
+.bildgal9{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
+}
+
+
+.bildgal10{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
+}
+
+.bildgal11{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
+}
+
+.bildgal12{
+    text-align: left;
+    border: solid black 2px;
+   width: 700px;
+   margin: 10px;
+   background: 
+   linear-gradient(#E0FFFF 50%, #F5FFFA 73%);
+   padding: 10px;
+}
+
+
+/* Bildaglerie ende*/
