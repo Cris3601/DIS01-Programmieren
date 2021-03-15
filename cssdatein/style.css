@@ -6,10 +6,13 @@ body{
 span {
     font-weight: 700;
 }
+
 /*--überschrift-anfang--*/
 @font-face{
 font-family: 'Cormorant Unicase', serif;
+src: local();
 }
+
 
 /*Angepasste Überschrift + Google Fonds*/ 
 h1 {
@@ -40,6 +43,7 @@ nav ul li {
     list-style: none;
     text-align: center;
 }
+
 /*Display Properties der nav Elemente*/
 @media (min-width:1000px) {
     nav ul {
@@ -48,6 +52,7 @@ nav ul li {
     }
 }
 
+/*Farbwechsel bei mouse hover und klick*/
 nav ul li:hover {
     background-color: aliceblue;
     color: red
@@ -116,13 +121,15 @@ table {
     text-align: center;
 }
 
+ /* Dicke der Schrift*/
 .block1 {
-    /* Dicke der Schrift*/
+   
     font-weight: 600;
 }
 
+/*Hintergrundfarbe und Zeilenabstand*/
 .block2 {
-    /*Hintergrundfarbe und Zeilenabstand*/
+    
     color: darkred;
 }
 
